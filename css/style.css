@@ -1,0 +1,107 @@
+html,body,.mainSection{
+	height: 100%;
+}
+.mainView{
+	height: 90%;
+	overflow-y:auto;
+}
+label{
+	font-weight: normal;
+}
+input.ng-invalid.ng-dirty {
+  border: 1px solid red;
+}
+
+.row {
+	margin-bottom: 5px;
+}
+.config-label {
+	line-height: 100%;
+	height: 29px;
+}
+#mainView{
+	padding-top: 10px;
+}
+#dashboard{
+	position: absolute;
+	left: 0px;
+	top: 0;
+	height: 100%;
+}
+.list-dashboard{
+	list-style: none;
+
+}
+.list-dashboard li{
+	height: 40px
+
+}
+#toggleDashboard{
+	float: left;
+	
+	padding: 1%;
+	font-size: 20px;
+	cursor: pointer;
+}
+#quickSearchBox{
+	position: relative;
+}
+#quickSearch{
+	position: absolute;
+	right: 0px;
+	top: 0;
+	height: 100%;
+	width: 0px;	
+	color: white;
+	z-index: 1;
+	background-color: rgba(50, 8, 126, 0.89);
+	-webkit-transition: background-color 1s, position .5s ;  /* For Safari 3.1 to 6.0 */
+    transition: background-color 1s, position .5s,width .1s;
+}
+#quickSearch.active{
+	width: 300px;
+	padding: 30px 0 0 10px;
+	background-color: rgba(50, 8, 126, 0.89);
+	right: 0;
+}
+#quickSearch.active.cause {
+	background-color: rgba(14, 133, 163, 0.89);
+	width: 640px;
+}
+.auto-quickSearchBox {
+background: none;
+border: 0;
+color: white;
+}
+.auto-quickSearchBox .ui-state-focus{
+	border: none;
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0) 80%,rgba(255,255,255,1) 100%);;
+	color: white;
+
+}
+.userImg{
+	padding: 0;
+	text-align: center;
+}
+.userImg i{
+	font-size: 100%;
+	background-color: rgb(118, 140, 255);
+	text-align: center;
+	padding: 0;
+	font-size: 100px;
+}
+#pacienteMainInfo{
+	padding: 10px;
+}
+.evolucion-right-col textarea{
+	height: 100px;
+}
+/************** REPORTES **********/
+#reportPreview{
+	width: 60%;
+	height: 500px;
+	border: solid 1px gray;
+}
+.reportes-nav li{
+	margin-bottom:10px 
+}

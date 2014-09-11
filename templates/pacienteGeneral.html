@@ -1,0 +1,39 @@
+<div class="row bg-info" id="pacienteMainInfo">
+		<h3 ng-hide="showName!=true">Nombre de paciente</h3>
+			<span class="col-sm-2 userImg" ng-hide="showFace!=true">
+				<i class="glyphicon glyphicon-user fullSize"></i>
+			</span>
+			<div ng-hide="showVitals!=true">
+			<span class="col-sm-3">
+				<div class="row">Historial:</div>
+				<div class="row">Edad:</div>
+				<div class="row">Sexo:</div>
+			</span>
+			<span class="col-sm-3">
+				
+				<div class="row">Peso:</div>
+				<div class="row">Altura:</div>
+				<div class="row">Sexo:</div>
+			</span>
+		</div>
+			<div class="col-sm-3" ng-hide="showButtons!=true">
+				<span class="btn btn-success"><i class="glyphicon glyphicon-file"></i> Evolucion</span> <span class="btn btn-primary"><i class="glyphicon glyphicon-pencil"></i> Editar</span>
+			</div>
+	<div ng-hide="showEditVitals!=true">
+		<span class="col-sm-3">
+			<div class="row"><label class="col-sm-5 text-right config-label">Peso:</label><span class="col-sm-5"><input type="number" required ng-model="peso"  class=" form-control"></span><small> kg.</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Altura:</label><span class="col-sm-5"><input type="number" required ng-model="altura" class="col-sm-12 form-control"></span><small> m.</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label"><small>Frecuencia Cardiaca:</small></label><span class="col-sm-5"><input type="number" required ng-model="fc" class="col-sm-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">IMC:</label><span class="col-sm-5"><label type="number" required ng-model="imc" class="col-sm-12"></label></span></div>
+
+		</span>
+		<span class="col-sm-3">
+			
+			<div class="row"><label class="col-sm-5 text-right config-label">Frecuencia Respiratoria:</label><span class="col-sm-5"><input type="number" required ng-model="fr" class="col-sm-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Temperatura Corporal:</label><span class="col-sm-5"><input type="number" required ng-model="tc" class="col-sm-12 form-control"></span><small> Cº</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Tension Aarterial:</label><span class="col-sm-5"><input type="number" required ng-model="ta" class="col-sm-12 form-control"></span><small> mmhg</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Glucosa:</label><span class="col-sm-5"><input type="number" required ng-model="glucosa" class="col-sm-12 form-control"></span><small> mg/dl</small></div>
+		</span>
+	</div>
+	<div ng-hide="showChart!=true" class="col-sm-4" id="userVitalChart"></div>
+		</div>

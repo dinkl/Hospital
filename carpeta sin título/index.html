@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<title>Hospital</title>	
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<section class="container-fluid">
+	<header ng-controller="headerCtrl">
+	<div id="dashboard" ng-class="{active:dashboardActive}" >
+		<span id="toggleDashboard" class="glyphicon glyphicon-th-list"></span>
+	</div>
+		<ul class="nav nav-tabs" role="tablist">
+  			<li ng-class="{active:activeHeader=='home'}" ng-click="activeHeader='home'" ><a href="#" >Home</a></li>
+  			<li ng-class="{active:activeHeader=='hoja'}" ng-click="activeHeader='hoja'"><a href="#/hoja">Hoja diaria</a></li>
+  			<li ng-class="{active:activeHeader=='pacientes'}" ng-click="activeHeader='pacientes'"><a href="#/pacientes">Pacientes</a></li>
+  			<li ng-class="{active:activeHeader=='reportes'}" ng-click="activeHeader='reportes'"><a href="#/reportes">Reportes</a></li>
+  			<li ng-class="{active:activeHeader=='usuarios'}" ng-click="activeHeader='usuarios'"><a href="#/usuario">Usuario</a></li>
+    	
+    	<form class="navbar-form navbar-right" role="search">
+    		<div id="quickSearch" ng-class="{active:quickSearchText!='',cause:quickSearchText.indexOf('c:')!=-1}">
+    			
+    		</div>  
+            <div class="input-group">              			  
+              <input type="text" id='quickSearchBox' omnisearch class="form-control" ng-model='quickSearchText' placeholder="Search">
+            </div>    
+        </form>
+        </ul>
+	</header>
+	<section>
+	<div ng-view class="container-fluid">
+			
+	</div>
+	</section>
+</section>
+<script src="js/require.js" data-main="js/main"></script>
+</body>
+</html>

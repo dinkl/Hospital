@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+	<title>Hospital</title>	
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+	<div class="col-sm-2"></div>
+	<div id="dashboard" ng-class="{active:dashboardActive}" class="col-sm-2 bg-primary">
+		<span id="toggleDashboard" class="glyphicon glyphicon-th-list col-sm-12"></span>
+		<ul class="list-dashboard nav col-sm-12">
+			<li>Usuario</li>
+			<li>Consultas</li>
+			<li>Reportes</li>
+			<li>Citas</li>
+			<li>Alarmas</li>
+		</ul>
+
+		<span class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Sync</span>
+	</div>
+<section class="container-fluid col-sm-10 mainSection">
+	
+	<header ng-controller="headerCtrl">
+	
+		<ul class="nav nav-tabs" role="tablist">
+  			<li ng-class="{active:activeHeader=='home'}" ng-click="activeHeader='home'" ><a href="#" >Home</a></li>
+  			<li ng-class="{active:activeHeader=='hoja'}" ng-click="activeHeader='hoja'"><a href="#/hoja">Evolucion</a></li>
+  			<li ng-class="{active:activeHeader=='pacientes'}" ng-click="activeHeader='pacientes'"><a href="#/listaPacientes">Pacientes</a></li>
+  			<li ng-class="{active:activeHeader=='reportes'}" ng-click="activeHeader='reportes'"><a href="#/reportes">Reportes</a></li>
+  			<li ng-class="{active:activeHeader=='usuarios'}" ng-click="activeHeader='usuarios'"><a href="#/usuario">Usuario</a></li>
+    	
+    	<form class="navbar-form navbar-right" style="margin:0" role="search"> 
+    		<div id="quickSearch" ng-class="{active:quickSearchText!='',cause:quickSearchText.indexOf('c:')!=-1}">
+    			
+    		</div>  
+            <div class="input-group">              			  
+              <input type="text" id='quickSearchBox' omnisearch class="form-control" ng-model='quickSearchText' placeholder="Search">
+            </div>    
+        </form>
+        </ul>
+	</header>
+	<section class="mainView">
+	<div ng-view class="container-fluid">
+			
+	</div>
+	</section>
+</section>
+<script src="js/require.js" data-main="js/main"></script>
+</body>
+</html>

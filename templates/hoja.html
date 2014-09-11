@@ -1,0 +1,74 @@
+
+<div class="row">
+	<h1>Evolución</h1>
+	<div class="col-sm-5">
+		<input type="text" class="form-control" placeholder="Buscar paciente">
+
+	</div>
+	<a href="#/pacienteInfo" class="btn btn-success"><i class="glyphicon glyphicon-plus"></i> Registrar nuevo paciente</a>
+</div>
+<form name="evolucionFirst" novalidate class="col-sm-12" id="evolucionFirst">
+<div paciente show-name="false" show-buttons="false" show-chart="true" show-vitals="false" show-editVitals="true"></div>
+
+
+	<div class="col-sm-3">
+		<!--<div id="basicInfo">
+			<div class="row"><label class="col-sm-5 text-right">Peso:</label><span class="col-sm-5"><input type="number" required ng-model="peso"  class=" form-control"></span><small> kg.</small></div>
+			<div class="row"><label class="col-sm-5 text-right">Altura:</label><span class="col-sm-5"><input type="number" required ng-model="altura" class="col-sm-12 form-control"></span><small> m.</small></div>
+			<div class="row"><label class="col-sm-5 text-right">Frecuencia Cardiaca:</label><span class="col-sm-5"><input type="number" required ng-model="fc" class="col-sm-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-sm-5 text-right">Frecuencia Respiratoria:</label><span class="col-sm-5"><input type="number" required ng-model="fr" class="col-sm-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-sm-5 text-right">Temperatura Corporal:</label><span class="col-sm-5"><input type="number" required ng-model="tc" class="col-sm-12 form-control"></span><small> Cº</small></div>
+			<div class="row"><label class="col-sm-5 text-right">Tension Aarterial:</label><span class="col-sm-5"><input type="number" required ng-model="ta" class="col-sm-12 form-control"></span><small> mmhg</small></div>
+			<div class="row"><label class="col-sm-5 text-right">Glucosa:</label><span class="col-sm-5"><input type="number" required ng-model="glucosa" class="col-sm-12 form-control"></span><small> mg/dl</small></div>
+		</div>
+	-->
+	<div class="row"><input type="checkbox"> 1º Consulta</div>
+	<div class="row"><input type="checkbox"> Paciente Sano</div>
+	<div class="row"><input type="checkbox"> Acciones de linea de vida</div>
+	<div class="row"><select class="col-sm-9">
+		<option value="N">No presento</option>
+		<option value="Y">Presento</option>
+	</select> </div>
+
+	<div class="row"><input type="checkbox" ng-model="embarazada"> Embarazada</div>
+			<div class="inner-diagnostico" ng-hide="embarazada!=true">
+			<div><input type="checkbox"> 1ª Vez</div>
+			<div><input type="checkbox"> Aceptante PF hormonal</div>
+			<div><input type="checkbox"> Aceptante PF DIU</div>
+		</div>
+	<div class="row"><input type="checkbox" ng-model="puerpera">Puerpera</div>
+		<div class="inner-diagnostico" ng-hide="puerpera!=true">
+			<div ><input type="checkbox"> 1ª Vez</div>
+			<div ><input type="checkbox"> Aceptante PF hormonal</div>
+			<div><input type="checkbox"> Aceptante PF DIU</div>
+		</div>
+	<div class="row"><input type="checkbox" ng-model="menopausia"> Menopausia</div>
+		<div class="inner-diagnostico" ng-hide="menopausia!=true">
+			<div><input type="checkbox"> 1ª Vez</div>
+			<div><input type="checkbox"> Terapia Hormonal</div>
+		</div>
+	<div class="row"><input type="checkbox" ng-model="cronico"> Cronico</div>
+	<div class="inner-diagnostico" ng-hide="cronico!=true">
+			<div><input type="checkbox"> 1ª Vez</div>
+			<div><input type="checkbox"> Terapia Hormonal</div>
+		</div>
+	
+
+</div>
+	<div class="col-sm-9 evolucion-right-col">
+		<div class="row"><label class="col-sm-5">Padecimiento:</label><textarea class="form-control"></textarea></div>
+		<div class="row"><label class="col-sm-5">Exploracion Fisica:</label><textarea class="form-control"></textarea></div>
+		<div class="row"><label class="col-sm-12">Diagnosico:</label>
+			<span class="col-sm-9"><textarea class="form-control"></textarea></span>
+			<span class="col-sm-3"><input type="text" class="form-control">
+				<div type="text" class="form-control"></div>
+			</span></div>
+		
+		<div class="row"><label class="col-sm-5">Tratamiento:</label><textarea class="form-control"></textarea></div>
+	</div>
+	<span ng-class="{'btn-default':evolucionFirst.$invalid,'btn-primary':!evolucionFirst.$invalid}" class="btn  col-sm-offset-7">Continuar  <i class="glyphicon glyphicon-arrow-right"></i></span>
+</form>
+
+<div class="col-sm-6">
+			
+		</div>

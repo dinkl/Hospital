@@ -1,0 +1,29 @@
+<div class="col-sm-12">
+	<h1>Reportes</h1>
+	<div class="col-sm-4">
+		<ul class="nav nav-pills nav-stacked reportes-nav">
+			<li ng-class="{ active: isActive('/reportes/hoja')}"><a href="#/reportes/hoja">Hoja Diaria</a></li>
+				<div ng-show="isActive('/reportes/hoja')" class="animate-show"><datepicker></datepicker></div>
+			<li ng-class="{ active: isActive('/reportes/pacientes')}"><a href="#/reportes/pacientes">Paciente</a></li>
+				<div ng-show="isActive('/reportes/pacientes')" class="animate-show"><datepicker></datepicker></div>
+			<li ng-class="{ active: isActive('/reportes/mensual')}"><a href="#/reportes/mensual">Mensual</a></li>
+				<div ng-show="isActive('/reportes/mensual')" class="animate-show"><datepicker></datepicker></div>
+			<li ng-class="{ active: isActive('/reportes/cronicos')}"><a href="#/reportes/cronicos">Cronico</a></li>
+				<div ng-show="isActive('/reportes/cronicos')" class="animate-show">
+					<div class=""><input type="checkbox"> Diabetes</div>
+					<div class=""><input type="checkbox"> Hipertensión</div>
+					</div>
+			<li ng-class="{ active: isActive('/reportes/embarazada')}"><a href="#/reportes/embarazada">Embarazada</a></li>
+				<div ng-show="isActive('/reportes/embarazada')" class="animate-show"><datepicker></datepicker></div>
+			<li ng-class="{ active: isActive('/reportes/personalizado')}"><a href="#/reportes/personalizado">Personalizado</a></li>
+				<div ng-show="isActive('/reportes/personalizado')" class="animate-show"><datepicker></datepicker></div>
+		</ul>
+	</div>
+	<div class="col-sm-8">
+		<div class="" id="reportPreview">
+
+		</div>
+		<span class="glyphicon glyphicon-download-alt btn btn-lg"></span>
+		<span class="glyphicon glyphicon-print btn btn-lg"></span>
+	</div>
+</div>
