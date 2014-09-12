@@ -35,6 +35,10 @@ define(['angular',
 	        templateUrl: 'templates/reportesTemplate.html',
 	        controller: 'reportesCtrl'
 	      }).
+	      when('/causes', {
+	        templateUrl: 'templates/causesTemplate.html',
+	        controller: 'causesCtrl'
+	      }).
 	      otherwise({
 	        redirectTo: '/'
 	      });
@@ -47,12 +51,7 @@ define(['angular',
     	$scope.quickSearch=""
     	$scope.quickSearchText=''
    		Parse.initialize("MseyKya0axGCeWT02BIdp75zvvmAkkg458JH1i3s", "Xy7zqXqyVTlEdZf82Z90NWpRZEDAGlpmSaPzf4Ut");
-   		var TestObject = Parse.Object.extend("causes");
-		var query= new Parse.Query(TestObject)
-		query.select("numero","titulo")
-		query.find({
-			success:function(data){console.log(data)},error:function(error){}
-		})
+   		
 	}]);
 	
 	app.directive("paciente",function($parse,$interpolate,$rootScope){
