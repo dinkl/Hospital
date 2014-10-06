@@ -1,46 +1,80 @@
 <!doctype html>
 <html>
 <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Hospital</title>	
 	<link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css"/>
 	<link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css"/>
 	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-
+	<link type="text/css" rel="stylesheet" href="css/pace.css"/>
 	<link type="text/css" rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-	<div class="col-sm-2"></div>
-	<div id="dashboard" ng-class="{active:dashboardActive}" class="col-sm-2 bg-primary">
-		<span id="toggleDashboard" class="glyphicon glyphicon-th-list col-sm-12"></span>
-		<ul class="list-dashboard nav col-sm-12">
-			<li>Usuario</li>
-			<li>Consultas</li>
-			<li>Reportes</li>
+	<div class="col-sm-2" id="dashSpacer"></div>
+	<div id="dashboard" ng-class="{'dash-inactive':inactive} " ng-controller="dashboard" class="col-sm-2 bg-primary">
+		<div id="toggleDashboard" ng-click="toggleDashboard()" class="row li-bordered"><i class="glyphicon glyphicon-th-list" ></i></div>
+		<div class="row li-bordered">
+			<img src="" width="35px" height="40px" ng-show="user">
+			<div style="display:inline-block">{{user.get("username")}}<br><small>{{user.get("email")}}</small>
+			<span ng-show="!user">Iniciar Sesión</span>
+			</div>
+
+		</div>
+		<ul class="list-dashboard nav col-sm-12" ng-show="user">			
+			<li><a href="#/">Consultas</a></li>
+			<li><a href="#/">Reportes</a></li>
 			<li><a href="#/causes">Causes</a></li>
-			<li>Alarmas</li>
+			<li><a href="#/">Alarmas</a></li>
+			<li><a href="" ng-click="logout()">Salir</a></li>
+			<span class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Sync</span>
 		</ul>
 
-		<span class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Sync</span>
+		
 	</div>
 <section class="container-fluid col-sm-10 mainSection">
 	
-	<header ng-controller="headerCtrl">
+	<header ng-controller="headerCtrl" id="header" ng-show="user">
 	
+
 		<ul class="nav nav-tabs" role="tablist">
   			<li ng-class="{active:activeHeader=='home'}" ng-click="activeHeader='home'" ><a href="#" >Home</a></li>
   			<li ng-class="{active:activeHeader=='hoja'}" ng-click="activeHeader='hoja'"><a href="#/hoja">Evolucion</a></li>
   			<li ng-class="{active:activeHeader=='pacientes'}" ng-click="activeHeader='pacientes'"><a href="#/listaPacientes">Pacientes</a></li>
   			<li ng-class="{active:activeHeader=='reportes'}" ng-click="activeHeader='reportes'"><a href="#/reportes">Reportes</a></li>
   			<li ng-class="{active:activeHeader=='usuarios'}" ng-click="activeHeader='usuarios'"><a href="#/usuario">Usuario</a></li>
-    	
-    	<form class="navbar-form navbar-right" style="margin:0" role="search"> 
-    		<div id="quickSearch" ng-class="{active:quickSearchText!='',cause:quickSearchText.indexOf('c:')!=-1}">
+    		
+
+    		<form class="navbar-form navbar-right" style="margin:0" role="search"> 
+
+    		<div id="quickSearch" ng-class="{active:quickSearchText!=''}">    		
+    			<div ng-hide="quickSearchText.length<3">
+	    			<h4>Pacientes</h4>
+		    			<table class="table"><tbody>
+		    				<tr ng-repeat=" item in pacientesList| filter:quickSearchText | limitTo:100" ng-click="closeSearch()" >
+		    				<td><a href="#/pacienteInfo/{{item.id}}" >{{item.label}}</a></td>
+		    				<td><a href="#/hoja/{{item.id}}"><i class="glyphicon glyphicon-file" title="Hoja de evolucion"></i></a>
+		    				</td><td><i class="glyphicon glyphicon-list-alt"  title="Reporte"></i></td></tr>
+		    			</tbody
+	    			></table>
+	    		</div>
+	    		<div ng-hide="quickSearchText.length<1">
+	    			<h4>Causes (2014)</h4>
+	    			<table class="table" ><tbody>
+	    				<tr ng-repeat=" item in searchList| filter:quickSearchText" ng-click="closeSearch()"><td><a href="#/causes/{{item.NUMERO}}"><i class="glyphicon glyphicon-book"></i></a></td><td class="hover-underline"  ng-click="quickCause(item.NUMERO)">{{item.label}}</td></tr>
+	    			</tbody></table>
+    			</div>
+    		</div> 
+    		<div id="quickCause" quick-cause cause="{{qCause}}" ng-class="{active:activeCause}">
     			
-    		</div>  
-            <div class="input-group">              			  
-              <input type="text" id='quickSearchBox' omnisearch class="form-control" ng-model='quickSearchText' placeholder="Search">
+    		</div> 
+            <div class="input-group" id='quickSearchBox'>              			  
+              <input type="search"   class="form-control" ng-model='quickSearchText' placeholder="Search">
+              <span class="input-group-addon" ng-click="quickSearchText=''" ><i ng-show="quickSearchText==''" class="glyphicon glyphicon-search"></i>
+              <i ng-show="quickSearchText!=''" class="glyphicon glyphicon-remove"></i>
+              </span>
             </div>    
         </form>
+    	
         </ul>
 	</header>
 	<section class="mainView">

@@ -1,53 +1,88 @@
-<h1>Agregar Paciente</h1><br>
-	<div paciente></div>
+<section ng-show="edit" >
+	<div paciente pname="{{nombre}}"></div>
 	<div class="row">	
-		<div class="col-sm-6">
-			<table class="table table-bordered table-hover table-striped">
-				<thead><tr><th>Fecha</th><th>Peso</th><th>Altura</th><th>F.C</th><th>F.R.</th><th>T.C.</th><th>T.A.</th><th>Glucosa</th><th>PDF</th><tr></thead>
+		<div class="col-md-7">
+			<table class="table table-bordered table-hover table-striped" id="tablePastNotes">
+				<thead><tr class=""><th>Fecha</th>
+					<th>Peso <i ng-click="toChart(1)" class="glyphicon glyphicon-stats"></th>
+					<th>Altura</th>
+					<th>F.C <i ng-click="toChart(2)"  class="glyphicon glyphicon-stats"></th>
+					<th>F.R. <i ng-click="toChart(3)" class="glyphicon glyphicon-stats"></th>
+					<th>T.C. <i ng-click="toChart(4)" class="glyphicon glyphicon-stats"></th>
+					<th>T.A. <i ng-click="toChart(5)" class="glyphicon glyphicon-stats"></th>
+					<th>IMC <i ng-click="toChart(0)" class="glyphicon glyphicon-stats"></th>
+					<th>Editar</th>
+					<th>PDF</th>
+					<tr></thead>
 				<tbody>
-					<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-					<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-					<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-						<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-							<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
-								<tr><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td></tr>
+					<tr ng-repeat="nota in notas"><td>{{nota.Fecha}}</td><td>{{nota.Peso}}</td><td>{{nota.Talla}}</td><td>{{nota.FC}}</td><td>{{nota.FR}}</td><td>{{nota.TC}}</td><td>{{nota.TA}}</td><td>{{floatFixed(nota.IMC)}}</td>
+						<td><a href="#/hoja/{{pacienteId}}/{{nota.nota_id}}"<i class="glyphicon glyphicon-pencil"></i></td>
+						<td><i class="glyphicon glyphicon-list-alt"></i></td></tr>
+					<tr ng-hide="notas.length>0"><td colspan="10">Este paciente no tiene consultas registradas</tr>
 					</tbody>
 			</table>
 		</div>
-		<div class="col-sm-6">
-			<div id="pacienteChart"></div>
+		<div class="col-md-5">
+			<div id="carousel-example-generic" class="carousel slide paciente-charts" data-interval="25000000" >
+	  <!-- Indicators -->
+			  
+
+			  <!-- Wrapper for slides -->
+			  	<div class="carousel-inner"><div class="item active"><div id="IMCChart"></div></div>
+			    <div class="item"><div id="PesoChart"></div></div>
+			    <div class="item"><div id="FCChart"></div></div>
+			    <div class="item"><div id="FRChart"></div></div>
+			    <div class="item"><div id="TCChart"></div></div>
+			    <div class="item"><div id="TAChart"></div></div>
+			    
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+			
 		</div>
 	</div>
+</section>
+<section id="userRealInfo">
+	<form name="userForm" novalidate ng-submit="savePacient(userForm.$invalid)">
+	<h1 ng-hide="edit" >Agregar Paciente</h1>
+	<div class="col-md-4">
+		<div class="row"><label class="col-md-4">Nombre:</label><span class="col-md-8"><input type="text" ng-model="nombre" required class="form-control"></span></div>
+		<div class="row"><label class="col-md-4">Fecha de nacimiento:</label><span class="col-md-8"><input type="text" datepicker required ng-model="nacimiento" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4">Nº Historial:</label><span class="col-md-8"><input type="text" ng-model="expediente" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4">Sexo:</label><span class="col-md-8"> H <input type="radio" ng-model="sexo" name="sexo" required value="H"> M <input type="radio" ng-model="sexo" name="sexo" value="M" required></span></div>
+		<div class="row"><label class="col-md-4">Hipertension:</label><span class="col-md-8"><input type="checkbox" class=""></span></div>
+		<div class="row"><label class="col-md-4">Diabetes:</label><span class="col-md-8"><input type="checkbox" class=""></span></div>
+	</div>
+	<div class="col-md-4">
+		<div class="row"><label class="col-md-4">Huella:</label><span class="col-md-8"><input type="text" ng-model="empty" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4"><input type="checkbox"></span> SPSS:</label><span class="col-md-8"><input type="text" ng-model="popular" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4"><input type="checkbox"></span> Oportunidades:</label><span class="col-md-8"><input type="text" ng-model="oportunidades" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4">Otro:</label><span class="col-md-8"><input type="text" ng-model="otro" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4">Migrante:</label><span class="col-md-8"><input type="checkbox" ng-model="migrante"></span></div>
+		<div class="row"><label class="col-md-4">Indigena:</label><span class="col-md-8"><input type="checkbox" ng-model="indigena"></span></div>
+		<div class="row"><label class="col-md-4">Discapacidad:</label><span class="col-md-8"><input type="checkbox" ng-model="discapacidad"></span></div>
+	</div>
+	</div>
 
-	<div class="col-sm-4">
-		<div class="row"><label class="col-sm-4">Nombre:</label><span class="col-sm-8"><input type="text" class="form-control"></span></div>
-		<div class="row"><label class="col-sm-4">Fecha de nacimiento:</label><span class="col-sm-8"><input type="text" class="form-control"></span></div>
-		<div class="row"><label class="col-sm-4">Nº Historial:</label><span class="col-sm-8"><input type="text" class="form-control"></span></div>
-		<div class="row"><label class="col-sm-4">Sexo:</label><span class="col-sm-8"> H <input type="radio"> M <input type="radio"></span></div>
-		<div class="row"><label class="col-sm-4">Hipertension:</label><span class="col-sm-8"><input type="checkbox" class=""></span></div>
-		<div class="row"><label class="col-sm-4">Diabetes:</label><span class="col-sm-8"><input type="checkbox" class=""></span></div>
-	</div>
-	<div class="col-sm-4">
-		<div class="row"><label class="col-sm-4">Huella:</label><span class="col-sm-8"><input type="text" class="form-control"></span></div>
-		<div class="row"><label class="col-sm-4"><input type="checkbox"></span> SPSS:</label><span class="col-sm-8"><input type="text" class="form-control"></span></div>
-		<div class="row"><label class="col-sm-4"><input type="checkbox"></span> Oportunidades:</label><span class="col-sm-8"><input type="text" class="form-control"></span></div>
-		<div class="row"><label class="col-sm-4">Otro:</label><span class="col-sm-8"><input type="text" class="form-control"></span></div>
-		<div class="row"><label class="col-sm-4">Migrante:</label><span class="col-sm-8"><input type="checkbox"></span></div>
-		<div class="row"><label class="col-sm-4">Indigena:</label><span class="col-sm-8"><input type="checkbox"></span></div>
-		<div class="row"><label class="col-sm-4">Discapacidad:</label><span class="col-sm-8"><input type="checkbox"></span></div>
-	</div>
-	</div>
-
-	<div class="col-sm-4">
+	<div class="col-md-4">
 		<div class="row">
-			<span class="col-sm-5 userImg">
+			<span class="col-md-5 userImg">
 				<i class="glyphicon glyphicon-user fullSize"></i>
 			</span>
-			<button type="button" class="btn btn-primary">Primary</button>
+			<!--<input type="file" class="btn btn-primary" value="camera" accept="image/*" capture="camera">--><button type="button" class="btn btn-primary" ><i class="glyphicon glyphicon-camera"></i> Seleccionar Imagen</button>
 		</div>
-		<div class="row"><textarea class="col-sm-12"></textarea></div>
+		<div class="row"><textarea class="col-md-12"></textarea></div>
 	</div>
-
+	<button type="submit" class="btn btn-success"><i class="glyphicon glyphicon-floppy-disk"></i> Guardar</button>
+	</form>
+</section>
 	
 
 

@@ -1,5 +1,6 @@
 angular.module("controllers",[])
 
-define(['./home','./hoja',,'./listaPacientes','./pacienteInfo', './reportesCtrl','./causesCtrl'], function(){
+define(['./loginCtrl','./home','./hoja','./usuarioCtrl','./listaPacientes','./pacienteInfo', 
+	'./reportesCtrl','./causesCtrl','./causeDetail'], function(){
 	
 });

@@ -1,5 +1,6 @@
 html,body,.mainSection{
 	height: 100%;
+	overflow-x:hidden;
 }
 .mainView{
 	height: 90%;
@@ -11,9 +12,34 @@ label{
 input.ng-invalid.ng-dirty {
   border: 1px solid red;
 }
-
+.hover-underline:hover{
+	text-decoration: underline;
+}
+/*****************BOOTSTRAP OVERWRITE***************/
+.carousel-indicators{
+	z-index: 1
+}
+.bg-primary a{
+                color: white;
+}
+.bg-primary a:hover{
+                color: #428bca;
+}
+/*****************END OF BOOTSTRAP OVERWRITE***************/
+#header{
+	padding-top: 5px;
+}
 .row {
 	margin-bottom: 5px;
+}
+.out-layer{
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	background-color: rgba(255, 255, 255, 0.71);
+	position: absolute;
+	left: 0;
+	top: 0;
 }
 .config-label {
 	line-height: 100%;
@@ -22,11 +48,14 @@ input.ng-invalid.ng-dirty {
 #mainView{
 	padding-top: 10px;
 }
+#userLoggin{
+}
 #dashboard{
 	position: absolute;
 	left: 0px;
 	top: 0;
 	height: 100%;
+	-webkit-transition: left .1s ;  /* For Safari 3.1 to 6.0 */
 }
 .list-dashboard{
 	list-style: none;
@@ -36,15 +65,35 @@ input.ng-invalid.ng-dirty {
 	height: 40px
 
 }
+
 #toggleDashboard{
-	float: left;
-	
-	padding: 1%;
+	padding: 12px 0 4px 8px;
 	font-size: 20px;
+	margin-bottom: 0px;
 	cursor: pointer;
+}
+.dash-inactive#dashSpacer{
+	width: 0px!important;
+	padding: 0; 
+}
+.dash-inactive#dashboard{
+	left: -17%;
+	z-index:1;
+}
+.dash-inactive#toggleDashboard{
+	left: 110%;
+	position: absolute;
+	color: #428bca
+}
+.dash-inactive.mainSection{
+	width: 100%;
+}
+.dash-inactive.mainSection #header{
+	padding-left: 50px;
 }
 #quickSearchBox{
 	position: relative;
+	z-index: 3;
 }
 #quickSearch{
 	position: absolute;
@@ -53,11 +102,22 @@ input.ng-invalid.ng-dirty {
 	height: 100%;
 	width: 0px;	
 	color: white;
-	z-index: 1;
+	z-index: 3;
 	background-color: rgba(50, 8, 126, 0.89);
+	overflow-y:auto;
 	-webkit-transition: background-color 1s, position .5s ;  /* For Safari 3.1 to 6.0 */
     transition: background-color 1s, position .5s,width .1s;
 }
+#quickSearch::-webkit-scrollbar{
+	width: 10px;
+	border:1px gray solid;
+	border-radius:10px;
+	-webkit-box-shadow:0 0 6px gray inset;
+}
+#quickSearch::-webkit-scrollbar-thumb{
+	background-color:#ddd;
+	border-radius:10px;
+} 
 #quickSearch.active{
 	width: 300px;
 	padding: 30px 0 0 10px;
@@ -67,6 +127,18 @@ input.ng-invalid.ng-dirty {
 #quickSearch.active.cause {
 	background-color: rgba(14, 133, 163, 0.89);
 	width: 640px;
+}
+#quickSearch a{
+	color: white;
+}
+#quickSearch td{
+	border-top: none;
+	cursor: pointer;
+}
+#quickSearch h4{
+	font-family: monospace;
+font-size: 14px;
+border-bottom: solid 1px rgb(175, 175, 175);
 }
 .auto-quickSearchBox {
 background: none;
@@ -79,6 +151,58 @@ color: white;
 	color: white;
 
 }
+#quickCause{
+	position: absolute;
+	overflow:hidden;
+	width: 80%;
+	height: 90%;
+	color: white;
+	background-color: rgba(39, 39, 39, 0.93);
+	top: 8%;
+	right: -80%;
+	z-index: 2;
+	transition: right .2s;
+}
+#quickCause.active{
+	right: 0;
+}
+#quickCause .table-striped>tbody>tr:nth-child(odd)>td {
+		background-color: rgba(249, 249, 249, 0.39);
+}
+#quickCause.minimized{
+	right: -76%;
+	height: 80px;
+}
+#quickCause.minimized section{
+	cursor: pointer;
+}
+#quickCause #causeInner{
+	height: 91%;
+	overflow-y:auto;
+	padding: 2%
+}
+#quickCause #causeInner::-webkit-scrollbar{
+	width: 10px;
+	border:1px gray solid;
+	border-radius:10px;
+	-webkit-box-shadow:0 0 6px gray inset;
+}
+#quickCause #causeInner::-webkit-scrollbar-thumb{
+	background-color:#ddd;
+	border-radius:10px;
+} 
+#quickCauseTitle{
+	background-color: rgba(0, 184, 255, 0.72);
+}
+.cause-menu-icons{
+	line-height: 2em;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.cause-title{
+	font-size: 1.5em;
+}
+
 .userImg{
 	padding: 0;
 	text-align: center;
@@ -96,6 +220,32 @@ color: white;
 .evolucion-right-col textarea{
 	height: 100px;
 }
+#agendaPacientes{
+	width: 100%;	
+	height: 370px;
+	border-radius: 21px 0px 0px;
+}
+.subtitle-home{
+	padding: 8px;
+}
+.li-bordered{
+	padding: 8px;
+border-bottom: solid 1px #006283;
+/*border-top: solid 1px #006283;*/
+box-shadow: #70A4B6 0px 1px 0px 0px;
+}
+/************** PACIENTE INFO***************/
+#tablePastNotes i{
+	cursor: pointer;
+	color: rgb(0, 131, 252);
+}
+.carousel-control{
+	width: 0px;
+}
+#pastNotesGeneral{
+	font-size: .85em;
+}
+
 /************** REPORTES **********/
 #reportPreview{
 	width: 60%;
@@ -104,4 +254,11 @@ color: white;
 }
 .reportes-nav li{
 	margin-bottom:10px 
+}
+/**************CAUSES**************/
+.cause-detail-table td{
+	width: 25%;
+}
+.medicamento-nombre{
+	width: 25%;
 }

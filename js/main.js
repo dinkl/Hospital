@@ -8,7 +8,9 @@ require.config({
         jqueryui:'lib/jquery-ui.min',
         bootstrap:'lib/bootstrap.min',
         highcharts:'lib/highcharts/highcharts',
-        parse: 'lib/parse-1.3.0.min'
+        directives:'directives/common',
+        parse: 'lib/parse-1.3.0.min',
+        pace:'lib/pace.min'
         
     },
     shim:{
@@ -36,6 +38,9 @@ require.config({
             deps:['jquery']
         },
         "controllers/main":{
+            deps:['angular']
+        },
+        directives:{
             deps:['angular']
         },
     },

@@ -4,6 +4,6 @@
 	<tr><th>#</th><th>Nombre</th></tr>
 </thead>
 <tbody >
-	<tr ng-repeat="c in causes | orderBy : reverse"><td>{{c.get("numero")}}</td><td><a href="#/cause/{{c.id}}">{{c.get("titulo")}}</a></td></a></tr>
+	<tr ng-repeat="c in causes"><td>{{c.NUMERO}}</td><td><a href="#/causes/{{c.NUMERO}}">{{c.NOMBRE}}</a></td></a></tr>
 </tbody>
 </table>

@@ -1,13 +1,17 @@
 <div class="row bg-info" id="pacienteMainInfo">
-		<h3 ng-hide="showName!=true">Nombre de paciente</h3>
+		<h3 ng-hide="showName!=true">{{nombre}}</h3>
 			<span class="col-sm-2 userImg" ng-hide="showFace!=true">
 				<i class="glyphicon glyphicon-user fullSize"></i>
 			</span>
 			<div ng-hide="showVitals!=true">
 			<span class="col-sm-3">
-				<div class="row">Historial:</div>
-				<div class="row">Edad:</div>
-				<div class="row">Sexo:</div>
+				<div class="row">Expediente: {{expediente}}</div>
+				<div class="row">
+					<label ng-show="sexo=='H'">Hombre</label>
+					<label ng-show="sexo=='M'">Mujer</label>
+				</div>
+				<div class="row">{{edad}} años</div>
+				
 			</span>
 			<span class="col-sm-3">
 				
@@ -17,23 +21,51 @@
 			</span>
 		</div>
 			<div class="col-sm-3" ng-hide="showButtons!=true">
-				<span class="btn btn-success"><i class="glyphicon glyphicon-file"></i> Evolucion</span> <span class="btn btn-primary"><i class="glyphicon glyphicon-pencil"></i> Editar</span>
+				<a class="btn btn-success" href="#/hoja/{{pacienteId}}"><i class="glyphicon glyphicon-file"></i> Evolución</a> <span class="btn btn-primary"><i class="glyphicon glyphicon-pencil"></i> Editar</span>
 			</div>
 	<div ng-hide="showEditVitals!=true">
 		<span class="col-sm-3">
-			<div class="row"><label class="col-sm-5 text-right config-label">Peso:</label><span class="col-sm-5"><input type="number" required ng-model="peso"  class=" form-control"></span><small> kg.</small></div>
-			<div class="row"><label class="col-sm-5 text-right config-label">Altura:</label><span class="col-sm-5"><input type="number" required ng-model="altura" class="col-sm-12 form-control"></span><small> m.</small></div>
-			<div class="row"><label class="col-sm-5 text-right config-label"><small>Frecuencia Cardiaca:</small></label><span class="col-sm-5"><input type="number" required ng-model="fc" class="col-sm-12 form-control"></span><small> x'</small></div>
-			<div class="row"><label class="col-sm-5 text-right config-label">IMC:</label><span class="col-sm-5"><label type="number" required ng-model="imc" class="col-sm-12"></label></span></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Peso:</label><span class="col-sm-5"><input type="text" required ng-model="evolucion.Peso" class=" form-control"></span><small> kg.</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Altura:</label><span class="col-sm-5"><input type="text" required ng-model="evolucion.Talla" class="col-sm-12 form-control"></span><small> m.</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label"><small>Frecuencia Cardiaca:</small></label><span class="col-sm-5"><input type="text" required ng-model="evolucion.FC" class="col-sm-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">IMC:</label><span class="col-sm-5"><label type="text" required ng-model="evolucion.IMC" class="col-sm-12"></label></span></div>
 
 		</span>
 		<span class="col-sm-3">
 			
-			<div class="row"><label class="col-sm-5 text-right config-label">Frecuencia Respiratoria:</label><span class="col-sm-5"><input type="number" required ng-model="fr" class="col-sm-12 form-control"></span><small> x'</small></div>
-			<div class="row"><label class="col-sm-5 text-right config-label">Temperatura Corporal:</label><span class="col-sm-5"><input type="number" required ng-model="tc" class="col-sm-12 form-control"></span><small> Cº</small></div>
-			<div class="row"><label class="col-sm-5 text-right config-label">Tension Aarterial:</label><span class="col-sm-5"><input type="number" required ng-model="ta" class="col-sm-12 form-control"></span><small> mmhg</small></div>
-			<div class="row"><label class="col-sm-5 text-right config-label">Glucosa:</label><span class="col-sm-5"><input type="number" required ng-model="glucosa" class="col-sm-12 form-control"></span><small> mg/dl</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Frecuencia Respiratoria:</label><span class="col-sm-5"><input type="text" required ng-model="evolucion.FR" class="col-sm-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Temperatura Corporal:</label><span class="col-sm-5"><input type="text" required ng-model="evolucion.TC" class="col-sm-12 form-control"></span><small> Cº</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Tension Aarterial:</label><span class="col-sm-5"><input type="text" required ng-model="evolucion.TA" class="col-sm-12 form-control"></span><small> mmhg</small></div>
+			<div class="row"><label class="col-sm-5 text-right config-label">Glucosa:</label><span class="col-sm-5"><input type="text" required ng-model="evolucion.Glucosa" class="col-sm-12 form-control"></span><small> mg/dl</small></div>
 		</span>
 	</div>
-	<div ng-hide="showChart!=true" class="col-sm-4" id="userVitalChart"></div>
+	<div ng-hide="showChart!=true" class="col-sm-4" id="">
+		<div id="carousel-example-generic" class="carousel slide paciente-charts" data-interval="25000000" >
+	  <!-- Indicators -->
+			  
+
+			  <!-- Wrapper for slides -->
+			  	<div class="carousel-inner">
+			  		<div class="item active"><div id="userVitalChart"></div></div>
+			    <div class="item">
+			    	<table class="table table-bordered table-striped" id="pastNotesGeneral">
+			    	<thead>
+			    		<tr><th>Fecha</th><th>Peso</th><th>Altura</th><th>F.C</th><th>F.R.</th><th>T.C.</th><th>T.A.</th><th>IMC</th><tr></thead></tr>
+			    	</thead>
+			    	<tbody>
+			    		<tr ng-repeat="nota in notas"><td>{{nota.Fecha}}</td><td>{{nota.Peso}}</td><td>{{nota.Talla}}</td><td>{{nota.FC}}</td><td>{{nota.FR}}</td><td>{{nota.TC}}</td><td>{{nota.TA}}</td><td>{{floatFixed(nota.IMC)}}</td><tr>
+			    	</tbody>
+			    </table></div>
+			    
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+	</div>
 		</div>
