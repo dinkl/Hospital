@@ -1,0 +1,2024 @@
+{ "results": [
+	{
+        "createdAt": "2014-09-11T15:00:44.879Z",
+        "numero": 285,
+        "objectId": "lrCPwO2IcA",
+        "titulo": "Diagnóstico y tratamiento quirúrgico de cataratas",
+        "updatedAt": "2014-09-11T15:01:02.231Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:01:07.427Z",
+        "numero": 284,
+        "objectId": "OFYKBHmuAx",
+        "titulo": "Diagnóstico y tratamiento de Arritmias cardiacas",
+        "updatedAt": "2014-09-11T15:01:37.814Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:01:48.636Z",
+        "numero": 283,
+        "objectId": "FogVDDXhz9",
+        "titulo": "Tratamiento de quiste sinovial y ganglión",
+        "updatedAt": "2014-09-11T15:02:17.241Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:02:23.509Z",
+        "numero": 282,
+        "objectId": "tNMk4E6U70",
+        "titulo": "Amputación de miembro inferior secundaria a pie diabético",
+        "updatedAt": "2014-09-11T15:02:50.110Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:02:56.655Z",
+        "numero": 281,
+        "objectId": "hYUzcAXI2I",
+        "titulo": "Artroplastía total de rodilla",
+        "updatedAt": "2014-09-11T15:04:21.054Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:01.097Z",
+        "numero": 280,
+        "objectId": "hH7il4AeRv",
+        "titulo": "Tratamiento artroscópico de las lesiones de la rodilla",
+        "updatedAt": "2014-09-11T15:04:37.121Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:04.220Z",
+        "numero": 279,
+        "objectId": "bMWUUG3Y67",
+        "titulo": "Reducción quirúrgica de fractura de tobillo y pie",
+        "updatedAt": "2014-09-11T15:05:02.508Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:09.646Z",
+        "numero": 278,
+        "objectId": "9wjnsfOizU",
+        "titulo": "Reducción quirúrgica de fractura de tibia y peroné",
+        "updatedAt": "2014-09-11T15:05:52.656Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:16.324Z",
+        "numero": 277,
+        "objectId": "DxKyqpT6l4",
+        "titulo": "Reducción quirúrgica de fractura de fémur",
+        "updatedAt": "2014-09-11T15:06:17.840Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:20.416Z",
+        "numero": 276,
+        "objectId": "o4oX7Txd25",
+        "titulo": "Reducción quirúrgica de fractura de cadera",
+        "updatedAt": "2014-09-11T15:07:05.196Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:24.620Z",
+        "numero": 275,
+        "objectId": "cxiWWO6qkx",
+        "titulo": "Reducción quirúrgica de fractura de mano",
+        "updatedAt": "2014-09-11T15:07:28.722Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:28.476Z",
+        "numero": 274,
+        "objectId": "4a1l05YC0p",
+        "titulo": "Reducción quirúrgica de fractura de cúbito y radio",
+        "updatedAt": "2014-09-11T15:07:39.680Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:34.940Z",
+        "numero": 273,
+        "objectId": "VWW6JLUYWB",
+        "titulo": "Reducción quirúrgica de fractura de húmero",
+        "updatedAt": "2014-09-11T15:08:03.357Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:46.873Z",
+        "numero": 270,
+        "objectId": "rb2RgKTlxU",
+        "titulo": "Safenectomía",
+        "updatedAt": "2014-09-11T15:09:08.801Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:38.914Z",
+        "numero": 272,
+        "objectId": "AgJHQFox4U",
+        "titulo": "Reducción quirúrgica de fractura de clavícula",
+        "updatedAt": "2014-09-11T15:08:11.028Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:42.508Z",
+        "numero": 271,
+        "objectId": "sG8M8tWyCf",
+        "titulo": "Reducción de luxaciones bajo anestesia por manipulación",
+        "updatedAt": "2014-09-11T15:08:28.194Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:03:51.149Z",
+        "numero": 269,
+        "objectId": "k8hcJLRjGU",
+        "titulo": "Tratamiento quirúrgico de pie equino en niños",
+        "updatedAt": "2014-09-11T15:12:55.842Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:21.214Z",
+        "numero": 268,
+        "objectId": "AQqbxKLGp9",
+        "titulo": "Tratamiento quirúrgico de luxación congénita de cadera",
+        "updatedAt": "2014-09-11T15:13:10.704Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:26.124Z",
+        "numero": 267,
+        "objectId": "AMxyOouEws",
+        "titulo": "Toracotomía, pleurotomía y drenaje de tórax",
+        "updatedAt": "2014-09-11T15:13:37.295Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:29.941Z",
+        "numero": 266,
+        "objectId": "A8KV0i104g",
+        "titulo": "Disección radical de cuello",
+        "updatedAt": "2014-09-11T15:14:33.605Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:33.629Z",
+        "numero": 265,
+        "objectId": "dIVfygi9Ym",
+        "titulo": "Colocación y retiro de diversos catéteres",
+        "updatedAt": "2014-09-11T15:14:55.341Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:41.231Z",
+        "numero": 264,
+        "objectId": "1GsuX0Zuan",
+        "titulo": "Tratamiento quirúrgico de hidrocefalia",
+        "updatedAt": "2014-09-11T15:15:17.171Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:45.661Z",
+        "numero": 263,
+        "objectId": "CbyYLU7nBv",
+        "titulo": "Tratamiento quirúrgico de pterigión",
+        "updatedAt": "2014-09-11T15:15:25.954Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:49.704Z",
+        "numero": 262,
+        "objectId": "SJK3JgS7ml",
+        "titulo": "Tratamiento quirúrgico de glaucoma",
+        "updatedAt": "2014-09-11T15:15:32.676Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:10:58.026Z",
+        "numero": 261,
+        "objectId": "17Nc76maSD",
+        "titulo": "Cirugía de alargamiento muscular para estrabismo",
+        "updatedAt": "2014-09-11T15:15:58.920Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:09.248Z",
+        "numero": 260,
+        "objectId": "vOTE3eH4qd",
+        "titulo": "Cirugía de acortamiento muscular para estrabismo",
+        "updatedAt": "2014-09-11T15:16:18.730Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:13.550Z",
+        "numero": 259,
+        "objectId": "nj4JVd9uA3",
+        "titulo": "Reparación de labio hendido con o sin paladar hendido",
+        "updatedAt": "2014-09-11T15:16:41.972Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:16.920Z",
+        "numero": 258,
+        "objectId": "m1NaGoJMBv",
+        "titulo": "Tratamiento quirúrgico de papiloma faríngeo (incluye papiloma laríngeo)",
+        "updatedAt": "2014-09-11T15:17:22.609Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:20.776Z",
+        "numero": 257,
+        "objectId": "8C25DBmFbl",
+        "titulo": "Amigdalectomía con o sin adenoidectomía",
+        "updatedAt": "2014-09-11T15:17:52.211Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:25.031Z",
+        "numero": 256,
+        "objectId": "a7ACiyX5lR",
+        "titulo": "Extripación de tumor benigno en tejidos blandos",
+        "updatedAt": "2014-09-11T15:18:21.891Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:28.894Z",
+        "numero": 255,
+        "objectId": "FdciU8YOat",
+        "titulo": "Extirpacion de lesión cancerosa de piel (no incluye melanoma)",
+        "updatedAt": "2014-09-11T15:18:47.015Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:34.547Z",
+        "numero": 254,
+        "objectId": "nGG4yGo5qh",
+        "titulo": "Prostatectomía abierta y transuretral",
+        "updatedAt": "2014-09-11T15:19:17.665Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:39.775Z",
+        "numero": 253,
+        "objectId": "vfhYY06qoc",
+        "titulo": "Orquidopexia",
+        "updatedAt": "2014-09-11T15:19:57.469Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:43.712Z",
+        "numero": 252,
+        "objectId": "VxGD1DvNFW",
+        "titulo": "Circuncisión",
+        "updatedAt": "2014-09-11T15:20:06.186Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:50.049Z",
+        "numero": 251,
+        "objectId": "MlobkxAPnb",
+        "titulo": "Método definitivo de planificación familiar en hombres (Vasectomía)",
+        "updatedAt": "2014-09-11T15:20:32.428Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:11:56.546Z",
+        "numero": 250,
+        "objectId": "XDEhMlpBIR",
+        "titulo": "Colpoperineoplastía",
+        "updatedAt": "2014-09-11T15:20:49.711Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:12:04.430Z",
+        "numero": 249,
+        "objectId": "CfIvKhNAXO",
+        "titulo": "Histerectomía abdominal y vaginal",
+        "updatedAt": "2014-09-11T15:21:10.104Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:12:07.448Z",
+        "numero": 248,
+        "objectId": "Q1BrrAjCjB",
+        "titulo": "Miomectomía",
+        "updatedAt": "2014-09-11T15:21:18.475Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:12:25.355Z",
+        "numero": 247,
+        "objectId": "Vn3BZxzYzJ",
+        "titulo": "Tratamiento laparoscópico de la endometriosis",
+        "updatedAt": "2014-09-11T15:22:32.007Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:06.725Z",
+        "numero": 246,
+        "objectId": "M73twq4yAv",
+        "titulo": "Ablación endometrial",
+        "updatedAt": "2014-09-11T15:25:46.526Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:10.457Z",
+        "numero": 245,
+        "objectId": "Nd7L3fvuzp",
+        "titulo": "Reparación uterina",
+        "updatedAt": "2014-09-11T15:25:58.050Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:13.475Z",
+        "numero": 244,
+        "objectId": "d1w6LdNYBr",
+        "titulo": "Atención de cesárea y del puerperio quirúrgico",
+        "updatedAt": "2014-09-11T15:26:27.450Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:16.301Z",
+        "numero": 243,
+        "objectId": "zjzUaw1ZhZ",
+        "titulo": "Diagnóstico y tratamiento del aborto incompleto (no incluye interrupción legal del embarazo)",
+        "updatedAt": "2014-09-11T15:27:16.028Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:19.378Z",
+        "numero": 242,
+        "objectId": "169scXx4Ip",
+        "titulo": "Diagnóstico y tratamiento quirúrgico del embarazo ectópico",
+        "updatedAt": "2014-09-11T15:28:44.718Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:22.362Z",
+        "numero": 241,
+        "objectId": "txI53qNkbF",
+        "titulo": "Diagnóstico y tratamiento quirúrgico de enfermedad trofoblástica",
+        "updatedAt": "2014-09-11T15:28:18.700Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:26.842Z",
+        "numero": 240,
+        "objectId": "CXpoJ1TmvZ",
+        "titulo": "Método definitivo de planificación familiar en la mujer (oclusión tubaria bilateral)",
+        "updatedAt": "2014-09-11T15:29:22.546Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:31.479Z",
+        "numero": 239,
+        "objectId": "Zaoo78SZMC",
+        "titulo": "Diagnóstico y tratamiento de torsión de anexos",
+        "updatedAt": "2014-09-11T15:29:38.835Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:36.293Z",
+        "numero": 238,
+        "objectId": "bR2qeuVJEQ",
+        "titulo": "Diagnóstico y tratamiento de quistes de ovario",
+        "updatedAt": "2014-09-11T15:29:52.176Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:42.539Z",
+        "numero": 237,
+        "objectId": "pbVGwnsVfM",
+        "titulo": "Diagnóstico y tratamiento quirúrgico de los condilomas",
+        "updatedAt": "2014-09-11T15:30:54.970Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:45.553Z",
+        "numero": 236,
+        "objectId": "PfSuyFXwe2",
+        "titulo": "Diagnóstico y tratamiento de colecistitis y colelitiasis",
+        "updatedAt": "2014-09-11T15:31:14.495Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:52.324Z",
+        "numero": 235,
+        "objectId": "jPMhRS9IiR",
+        "titulo": "Diagnóstico y tratamiento de hernia ventral",
+        "updatedAt": "2014-09-11T15:31:58.723Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:54.642Z",
+        "numero": 234,
+        "objectId": "E6BErT8NXV",
+        "titulo": "Diagnóstico y tratamiento de hernia umbilical",
+        "updatedAt": "2014-09-11T15:32:11.356Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:23:59.237Z",
+        "numero": 233,
+        "objectId": "QIDXQnpuLh",
+        "titulo": "Diagnóstico y tratamiento de hernia inguinal",
+        "updatedAt": "2014-09-11T15:32:41.781Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:24:03.223Z",
+        "numero": 232,
+        "objectId": "eB7pYxdGnx",
+        "titulo": "Diagnóstico y tratamiento de hernia crural",
+        "updatedAt": "2014-09-11T15:32:46.260Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:24:06.276Z",
+        "numero": 231,
+        "objectId": "D4igA96Lhl",
+        "titulo": "Diagnóstico y tratamiento de hipertrofia congénita del píloro",
+        "updatedAt": "2014-09-11T15:33:07.983Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:24:09.726Z",
+        "numero": 230,
+        "objectId": "qGvVxUiAYR",
+        "titulo": "Diagnóstico y tratamiento de hernia hiatal",
+        "updatedAt": "2014-09-11T15:33:18.671Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:25:08.979Z",
+        "numero": 229,
+        "objectId": "MeZG9wOSpb",
+        "titulo": "Diagnóstico y tratamiento de enfermedad hemorroidal",
+        "updatedAt": "2014-09-11T15:33:43.712Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:25:14.610Z",
+        "numero": 228,
+        "objectId": "TKCd5mtcPi",
+        "titulo": "Diagnóstico y tratamiento de fístula y/o fisura anal",
+        "updatedAt": "2014-09-11T15:34:09.204Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:25:18.724Z",
+        "numero": 227,
+        "objectId": "c8iVfD2hPP",
+        "titulo": "Diagnóstico y tratamiento del absceso perirrectal",
+        "updatedAt": "2014-09-11T15:34:49.279Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:25:22.260Z",
+        "numero": 226,
+        "objectId": "KOhy8aBbbL",
+        "titulo": "Diagnóstico y tratamiento del vólvulo colónico",
+        "updatedAt": "2014-09-11T15:35:07.723Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:25:27.321Z",
+        "numero": 225,
+        "objectId": "RZztPoe7y6",
+        "titulo": "Diagnóstico y tratamiento quirúrgico de perforación gástrica y/o intestinal",
+        "updatedAt": "2014-09-11T15:35:39.733Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:36:51.805Z",
+        "numero": 224,
+        "objectId": "mwKBpeIFrF",
+        "titulo": "Diagnóstico y tratamiento de obstrucción intestinal",
+        "updatedAt": "2014-09-11T15:38:26.101Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:36:52.129Z",
+        "numero": 223,
+        "objectId": "FxsdyMHXb9",
+        "titulo": "Diagnóstico y tratamiento quirúrgico de isquemia e infarto intestinal",
+        "updatedAt": "2014-09-11T15:38:51.557Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:36:55.232Z",
+        "numero": 222,
+        "objectId": "j8Icr0QwTa",
+        "titulo": "Diagnóstico y tratamiento de enfermedad diverticular",
+        "updatedAt": "2014-09-11T15:39:03.890Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:36:57.576Z",
+        "numero": 221,
+        "objectId": "ViMcORoUMZ",
+        "titulo": "Esplenectomía",
+        "updatedAt": "2014-09-11T15:39:17.325Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:00.381Z",
+        "numero": 220,
+        "objectId": "Ogx5mGeCrJ",
+        "titulo": "Diagnóstico y tratamiento de apendicitis",
+        "updatedAt": "2014-09-11T15:39:28.163Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:02.451Z",
+        "numero": 219,
+        "objectId": "owN27DF1Py",
+        "titulo": "Laparotomía exploradora",
+        "updatedAt": "2014-09-11T15:39:45.656Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:13.417Z",
+        "numero": 218,
+        "objectId": "cB0tlGpK47",
+        "titulo": "Diagnóstico y tratamiento de trombosis venosa profunda en el embarazo y puerperio",
+        "updatedAt": "2014-09-11T15:40:06.804Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:15.530Z",
+        "numero": 217,
+        "objectId": "nTsgqI7pUc",
+        "titulo": "Diagnóstico y tratamiento de hipertensión inducida y/o preexistente en el embarazo",
+        "updatedAt": "2014-09-11T15:40:33.208Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:24.302Z",
+        "numero": 216,
+        "objectId": "QQYdhgwq9l",
+        "titulo": "Diagnóstico y tratamiento de diabetes gestacional",
+        "updatedAt": "2014-09-11T15:40:57.502Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:27.462Z",
+        "numero": 215,
+        "objectId": "5hwA7DVLYB",
+        "titulo": "Diagnóstico y tratamiento de embolia obstétrica",
+        "updatedAt": "2014-09-11T15:41:23.395Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:29.919Z",
+        "numero": 214,
+        "objectId": "Zjg2xC5dj5",
+        "titulo": "Diagnóstico y tratamiento de corioamnioítis",
+        "updatedAt": "2014-09-11T15:41:43.083Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:32.913Z",
+        "numero": 213,
+        "objectId": "19KAiKjcZs",
+        "titulo": "Diagnóstico y tratamiento de síndrome de HELLP",
+        "updatedAt": "2014-09-11T15:42:03.813Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:41.148Z",
+        "numero": 212,
+        "objectId": "m14rYC3oik",
+        "titulo": "Diagnóstico y tratamiento de hemorragia digestiva",
+        "updatedAt": "2014-09-11T15:42:33.955Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:44.566Z",
+        "numero": 211,
+        "objectId": "zH6mmoJ9Ii",
+        "titulo": "Diagnóstico y tratamiento hospitalario de quemaduras de segundo grado",
+        "updatedAt": "2014-09-11T15:45:34.940Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:46.981Z",
+        "numero": 210,
+        "objectId": "LnPX1s8bY0",
+        "titulo": "Tratamiento hospitalario de úlcera y del pie diabético infectados",
+        "updatedAt": "2014-09-11T15:45:09.908Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:52.196Z",
+        "numero": 209,
+        "objectId": "X7EbAIoqtd",
+        "titulo": "Diagnóstico y tratamiento de neuropatía periférica secundaria a diabetes",
+        "updatedAt": "2014-09-11T15:46:07.561Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:37:59.941Z",
+        "numero": 208,
+        "objectId": "Jhg24RktjU",
+        "titulo": "Diagnóstico y tratamiento de enfermedad pulmonar obstructiva crónica",
+        "updatedAt": "2014-09-11T15:46:54.357Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:16.068Z",
+        "numero": 207,
+        "objectId": "XWKsGYYcvL",
+        "titulo": "Diagnóstico y tratamiento de insuficiencia cardiaca aguda y del edema agudo pulmonar",
+        "updatedAt": "2014-09-11T15:47:14.489Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:20.022Z",
+        "numero": 206,
+        "objectId": "ChvynHCgYm",
+        "titulo": "Tratamiento hospitalario de hipertensión arterial",
+        "updatedAt": "2014-09-11T15:47:36.877Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:22.592Z",
+        "numero": 205,
+        "objectId": "nZ5ywksYEI",
+        "titulo": "Diagnóstico y tratamiento hospitalario del estatus epiléptico y crisis convulsivas de difícil control",
+        "updatedAt": "2014-09-11T15:48:12.679Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:25.641Z",
+        "numero": 204,
+        "objectId": "mMDsKJ7cCn",
+        "titulo": "Diagnóstico y tratamiento conservador de pancreatitis aguda",
+        "updatedAt": "2014-09-11T15:48:31.837Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:29.903Z",
+        "numero": 203,
+        "objectId": "dCqG7Dp8Ki",
+        "titulo": "Diagnóstico y tratamiento de traumatismo craneoencefálico moderado",
+        "updatedAt": "2014-09-11T15:48:50.658Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:34.242Z",
+        "numero": 202,
+        "objectId": "IRC4pP7T1c",
+        "titulo": "Diagnóstico y tratamiento de dengue hemorrágico",
+        "updatedAt": "2014-09-11T15:49:15.009Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:37.106Z",
+        "numero": 201,
+        "objectId": "M0crKC0Mv4",
+        "titulo": "Diagnóstico y tratamiento de prostatitis aguda",
+        "updatedAt": "2014-09-11T15:49:26.595Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:39.864Z",
+        "numero": 200,
+        "objectId": "sIEmbRuEzf",
+        "titulo": "Diagnóstico y tratamiento de retención aguda de orina",
+        "updatedAt": "2014-09-11T15:49:47.489Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:42.989Z",
+        "numero": 199,
+        "objectId": "DaiW0fKZ9l",
+        "titulo": "Diagnóstico y tratamiento del síndrome escrotal agudo",
+        "updatedAt": "2014-09-11T15:49:58.707Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:47.609Z",
+        "numero": 198,
+        "objectId": "0df5BdbOgI",
+        "titulo": "Diagnóstico y tratamiento de litiasis de vías urinarias inferiores",
+        "updatedAt": "2014-09-11T15:50:17.456Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:43:51.997Z",
+        "numero": 197,
+        "objectId": "n8HbQY2yvA",
+        "titulo": "Diagnóstico y tratamiento de litiasis renal y ureteral",
+        "updatedAt": "2014-09-11T15:50:32.883Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:44:00.737Z",
+        "numero": 196,
+        "objectId": "66IGf5ZHm9",
+        "titulo": "Diagnóstico y tratamiento de infección de episiorrafia o herida quirúrgica obstétrica",
+        "updatedAt": "2014-09-11T15:51:16.666Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:56:55.834Z",
+        "numero": 195,
+        "objectId": "kZj5yqgUC4",
+        "titulo": "Diagnóstico y tratamiento de hemorragia por placenta previa y desprendimiento prematuro de placenta normoinserta",
+        "updatedAt": "2014-09-11T15:58:30.911Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:33.955Z",
+        "numero": 186,
+        "objectId": "7jOOTQo156",
+        "titulo": "Atención al recién nacido",
+        "updatedAt": "2014-09-11T16:03:18.514Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:23:01.050Z",
+        "numero": 143,
+        "objectId": "cooAIPDNnc",
+        "titulo": "Extracción de tercer molar",
+        "updatedAt": "2014-09-11T16:23:36.143Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:56:48.227Z",
+        "numero": 194,
+        "objectId": "6yLh4SxXS3",
+        "titulo": "Diagnóstico y tratamiento de hemorragia obstétrica puerperal (incluye choque hipovolémico)",
+        "updatedAt": "2014-09-11T15:59:00.835Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:56:51.301Z",
+        "numero": 193,
+        "objectId": "DZI9NfIGEY",
+        "titulo": "Diagnóstico y tratamiento de eclampsia",
+        "updatedAt": "2014-09-11T15:59:40.953Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:00.962Z",
+        "numero": 192,
+        "objectId": "JY5lPc9whN",
+        "titulo": "Diagnóstico y tratamiento de preeclampsia severa",
+        "updatedAt": "2014-09-11T15:59:52.858Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:06.079Z",
+        "numero": 191,
+        "objectId": "g3cEU1B4Y4",
+        "titulo": "Diagnóstico y tratamiento de preeclampsia leve y moderada",
+        "updatedAt": "2014-09-11T16:00:03.980Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:11.283Z",
+        "numero": 190,
+        "objectId": "9NGEhD53bI",
+        "titulo": "Diagnóstico y tratamiento del prematuro con bajo peso al nacer",
+        "updatedAt": "2014-09-11T16:00:23.004Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:24.859Z",
+        "numero": 189,
+        "objectId": "0S87Ido5GE",
+        "titulo": "Diagnóstico y tratamiento del prematuro con hipotermia",
+        "updatedAt": "2014-09-11T16:00:40.097Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:28.503Z",
+        "numero": 188,
+        "objectId": "sbLYd6rm2p",
+        "titulo": "Diagnóstico y tratamiento del prematuro sin complicaciones",
+        "updatedAt": "2014-09-11T16:00:56.729Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:31.193Z",
+        "numero": 187,
+        "objectId": "UuVWAkStBq",
+        "titulo": "Diagnóstico y tratamiento de ictericica neonatal",
+        "updatedAt": "2014-09-11T16:03:08.145Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:36.930Z",
+        "numero": 185,
+        "objectId": "ZJsXAPU3FE",
+        "titulo": "Diagnóstico y tratamiento de choque séptico puerperal",
+        "updatedAt": "2014-09-11T16:03:47.492Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:40.555Z",
+        "numero": 184,
+        "objectId": "OXT5MaUL2X",
+        "titulo": "Diagnóstico y tratamiento de endometritis puerperal",
+        "updatedAt": "2014-09-11T16:03:55.332Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:43.265Z",
+        "numero": 183,
+        "objectId": "SrGmJLJbC4",
+        "titulo": "Diagnóstico y tratamiento de pelviperitonitis",
+        "updatedAt": "2014-09-11T16:04:32.879Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:46.356Z",
+        "numero": 182,
+        "objectId": "PrBwqOTYPr",
+        "titulo": "Atención del parto y perperio fisiológico",
+        "updatedAt": "2014-09-11T16:04:50.510Z"
+    },
+	{
+        "createdAt": "2014-09-11T15:57:55.047Z",
+        "numero": 181,
+        "objectId": "jcvPQEl6rx",
+        "titulo": "Diagnóstico y tratamiento de amenaza de parto pretérmino",
+        "updatedAt": "2014-09-11T16:05:53.488Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:05:55.383Z",
+        "numero": 180,
+        "objectId": "d2jsCgK2l8",
+        "titulo": "Diagnóstico y tratamiento de amenaza de aborto",
+        "updatedAt": "2014-09-11T16:07:06.655Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:01.081Z",
+        "numero": 179,
+        "objectId": "kQeikfB33l",
+        "titulo": "Diagnóstico y tratamiento de enfermedad pélvica inflamatoria",
+        "updatedAt": "2014-09-11T16:07:47.452Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:04.025Z",
+        "numero": 178,
+        "objectId": "SvXTTGPLm6",
+        "titulo": "Diagnóstico y tratamiento de absceso hepático amebiano",
+        "updatedAt": "2014-09-11T16:08:08.826Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:06.003Z",
+        "numero": 177,
+        "objectId": "heaRIwsTGw",
+        "titulo": "Diagnóstico y tratamiento de neumonía en adultos",
+        "updatedAt": "2014-09-11T16:08:28.042Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:08.722Z",
+        "numero": 176,
+        "objectId": "5ZbFCQHBpd",
+        "titulo": "Diagnóstico y tratamiento de neumonía en menores de 18 años",
+        "updatedAt": "2014-09-11T16:08:52.937Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:10.970Z",
+        "numero": 175,
+        "objectId": "FtmNa3FcqW",
+        "titulo": "Diagnóstico y tratamiento de osteomielitis",
+        "updatedAt": "2014-09-11T16:09:00.696Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:13.744Z",
+        "numero": 174,
+        "objectId": "dIkwWHuQo1",
+        "titulo": "Diagnóstico y tratamiento de mastoiditis",
+        "updatedAt": "2014-09-11T16:09:06.633Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:18.694Z",
+        "numero": 173,
+        "objectId": "8zwmxmq0kA",
+        "titulo": "Diagnóstico y tratamiento de meningitis y meningoencefalitis agudas",
+        "updatedAt": "2014-09-11T16:09:20.435Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:21.353Z",
+        "numero": 172,
+        "objectId": "FreMjWYzcs",
+        "titulo": "Diagnóstico y tratamiento de bronquitis aguda",
+        "updatedAt": "2014-09-11T16:09:31.935Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:31.747Z",
+        "numero": 171,
+        "objectId": "fW3OLebVZh",
+        "titulo": "Diagnóstico y tratamiento de bronquiolitis",
+        "updatedAt": "2014-09-11T16:09:39.042Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:34.404Z",
+        "numero": 170,
+        "objectId": "LP0CDm1QVH",
+        "titulo": "Diagnóstico y tratamiento de pielonefritis",
+        "updatedAt": "2014-09-11T16:09:49.259Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:37.308Z",
+        "numero": 169,
+        "objectId": "ElH4P63iSO",
+        "titulo": "Diagnóstico y tratamiento de esguince de tobillo y pie",
+        "updatedAt": "2014-09-11T16:10:03.278Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:40.163Z",
+        "numero": 168,
+        "objectId": "U7L1O5pSiq",
+        "titulo": "conservador de esguince de rodilla",
+        "updatedAt": "2014-09-11T16:10:13.859Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:44.562Z",
+        "numero": 167,
+        "objectId": "DBMVcz8qVZ",
+        "titulo": "Diagnóstico y tratamiento de muñeca y mano",
+        "updatedAt": "2014-09-11T16:10:20.855Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:48.163Z",
+        "numero": 166,
+        "objectId": "3Sbgr7p6HS",
+        "titulo": "Diagnóstico y tratamiento de esguince de codo",
+        "updatedAt": "2014-09-11T16:10:30.471Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:06:51.983Z",
+        "numero": 165,
+        "objectId": "VdgAUJWKsS",
+        "titulo": "Diagnóstico y tratamiento de esguince de hombro",
+        "updatedAt": "2014-09-11T16:11:05.310Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:10:53.900Z",
+        "numero": 164,
+        "objectId": "tsuaiJZWlG",
+        "titulo": "Diagnóstico y tratamiento de esguince cervical",
+        "updatedAt": "2014-09-11T16:12:42.443Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:11:25.344Z",
+        "numero": 163,
+        "objectId": "xhRlN1Fu7y",
+        "titulo": "Manejo en urgencias de quemaduras de primer grado",
+        "updatedAt": "2014-09-11T16:12:28.997Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:11:34.180Z",
+        "numero": 162,
+        "objectId": "YRy0O1WVsV",
+        "titulo": "Diagnóstico y tratamiento del traumatismo craneoencefálico leve",
+        "updatedAt": "2014-09-11T16:13:18.048Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:17.113Z",
+        "numero": 161,
+        "objectId": "YoNICERJPI",
+        "titulo": "Curación y suturas de lesiones traumáticas de tejidos blandos",
+        "updatedAt": "2014-09-11T16:15:41.985Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:20.580Z",
+        "numero": 160,
+        "objectId": "xxKNedmo6z",
+        "titulo": "Extracción de cuerpos extraños",
+        "updatedAt": "2014-09-11T16:15:58.530Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:23.878Z",
+        "numero": 159,
+        "objectId": "CS08NSynyo",
+        "titulo": "Manejo de mordedura y prevención de rabia en humanos",
+        "updatedAt": "2014-09-11T16:16:11.034Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:26.579Z",
+        "numero": 158,
+        "objectId": "5gsRGOeMnz",
+        "titulo": "Diagnóstico y tratamiento de intoxicación aguda alimentaria",
+        "updatedAt": "2014-09-11T16:16:34.978Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:29.433Z",
+        "numero": 157,
+        "objectId": "ALy9RCR3b2",
+        "titulo": "Diagnóstico y tratamiento de picaduras de abeja, araña y otros atrópodos",
+        "updatedAt": "2014-09-11T16:16:56.342Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:32.455Z",
+        "numero": 156,
+        "objectId": "AKG9lKbwPs",
+        "titulo": "Diagnóstico y tratamiento de picadura de alacrán",
+        "updatedAt": "2014-09-11T16:17:05.867Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:35.639Z",
+        "numero": 155,
+        "objectId": "HcB88vz3Ak",
+        "titulo": "Diagnóstico y tratamiento del envenenamiento por mordedura de serpiente",
+        "updatedAt": "2014-09-11T16:17:31.283Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:38.622Z",
+        "numero": 154,
+        "objectId": "iSa47YkEDG",
+        "titulo": "Diagnóstico y tratamiento del envenenamiento por monóxido de carbono",
+        "updatedAt": "2014-09-11T16:18:15.396Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:41.512Z",
+        "numero": 153,
+        "objectId": "7H7Er1DXgB",
+        "titulo": "Diagnóstico y tratamiento del envenenamiento por insecticidas organofosforados y carbamatos",
+        "updatedAt": "2014-09-11T16:18:36.852Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:44.260Z",
+        "numero": 152,
+        "objectId": "TFFt4ug9S3",
+        "titulo": "Diagnóstico y tratamiento del envenenamiento por metanol",
+        "updatedAt": "2014-09-11T16:18:45.924Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:47.001Z",
+        "numero": 151,
+        "objectId": "rxW69F3nHA",
+        "titulo": "Diagnóstico y tratamiento del envenenamiento por salicilatos",
+        "updatedAt": "2014-09-11T16:19:00.404Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:14:58.510Z",
+        "numero": 150,
+        "objectId": "NrADnM760l",
+        "titulo": "Diagnóstico y tratamiento del envenenamiento por álcalis, cáusticos y sustancias alcalinas similares",
+        "updatedAt": "2014-09-11T16:19:27.056Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:15:10.113Z",
+        "numero": 149,
+        "objectId": "aXxVpbb1iw",
+        "titulo": "Diagnóstico y tratamiento del envenenamiento por fenotiazinas",
+        "updatedAt": "2014-09-11T16:19:45.635Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:15:06.888Z",
+        "numero": 148,
+        "objectId": "pOjmma1s6V",
+        "titulo": "Estabilización en urgencias del paciente diabético con cetoacidosis",
+        "updatedAt": "2014-09-11T16:20:09.820Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:15:13.655Z",
+        "numero": 147,
+        "objectId": "cSLh5cx1mK",
+        "titulo": "Manejo en urgencias del síndrome hiperglucémico  hiperosmolar no cetósico",
+        "updatedAt": "2014-09-11T16:21:06.860Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:15:18.207Z",
+        "numero": 146,
+        "objectId": "wX9FglSQOL",
+        "titulo": "Estabilización en urgencias del paciente diabético con cetoacidosis",
+        "updatedAt": "2014-09-11T16:21:42.592Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:22:00.591Z",
+        "numero": 145,
+        "objectId": "1POv8Mke4Y",
+        "titulo": "Estabilización en urgencias por crisis hipertensiva",
+        "updatedAt": "2014-09-11T16:22:43.590Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:22:28.281Z",
+        "numero": 144,
+        "objectId": "cBw4A5xpYL",
+        "titulo": "Atención en urgencias por intoxicación aguda, uso nocivo y estado de abstinencia de sustancias adictivas",
+        "updatedAt": "2014-09-11T16:22:50.286Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:23:03.874Z",
+        "numero": 142,
+        "objectId": "1SmUCuDl4r",
+        "titulo": "Terapia pulpar",
+        "updatedAt": "2014-09-11T16:23:42.601Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:23:06.545Z",
+        "numero": 141,
+        "objectId": "6rhuvHRrHF",
+        "titulo": "Extracción de dientes erupcionados y restos radiculares",
+        "updatedAt": "2014-09-11T16:24:02.438Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:23:09.236Z",
+        "numero": 140,
+        "objectId": "5agJq60jH7",
+        "titulo": "Diagnóstico y tratamiento de focos infecciosos bacterianos agudos en la cavidad bucal",
+        "updatedAt": "2014-09-11T16:24:37.346Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:23:22.045Z",
+        "numero": 139,
+        "objectId": "1TuAv0R1Nl",
+        "titulo": "Restauraciones dentales con amalgama, ionómero de vidrio y resina, por caries o fractura de dientes",
+        "updatedAt": "2014-09-11T16:25:12.319Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:28.452Z",
+        "numero": 138,
+        "objectId": "ZNdwR5pTBg",
+        "titulo": "Aplicación de selladores de fosetas y fisuras dentales",
+        "updatedAt": "2014-09-11T16:28:57.657Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:28.588Z",
+        "numero": 137,
+        "objectId": "ovAlTMOPxA",
+        "titulo": "Prevención de varies dental",
+        "updatedAt": "2014-09-11T16:29:05.815Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:31.531Z",
+        "numero": 136,
+        "objectId": "Ia1SluRsEu",
+        "titulo": "Prevención y detección temprana de adicciones (Consejería)",
+        "updatedAt": "2014-09-11T16:29:34.419Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:34.607Z",
+        "numero": 135,
+        "objectId": "2hAl1iV9ZQ",
+        "titulo": "Diagnóstico y tratamiento de parálisis facial",
+        "updatedAt": "2014-09-11T16:29:46.266Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:37.883Z",
+        "numero": 134,
+        "objectId": "LNfdPvAXjX",
+        "titulo": "Rehabilitación de fracturas",
+        "updatedAt": "2014-09-11T16:29:55.466Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:40.854Z",
+        "numero": 133,
+        "objectId": "bRLXtuYjbs",
+        "titulo": "Diagnóstico y tratamiento de conservador de luxación congénita de cadera",
+        "updatedAt": "2014-09-11T16:30:09.910Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:43.979Z",
+        "numero": 132,
+        "objectId": "r0Pp0AxJrJ",
+        "titulo": "Diagnóstico y tratamiento médico de enfermedad de Parkinson",
+        "updatedAt": "2014-09-11T16:30:40.401Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:46.977Z",
+        "numero": 131,
+        "objectId": "cCDwbLGiXF",
+        "titulo": "Diagnóstico y tratamiento ambulatorio de epilepsia y crisis convulsivas",
+        "updatedAt": "2014-09-11T16:31:02.875Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:50.021Z",
+        "numero": 130,
+        "objectId": "C3i92QRLX9",
+        "titulo": "Diagnóstico y tratamiento de transtornos psicóticos (esquizofrenia, psicóticos y esquizotípico)",
+        "updatedAt": "2014-09-11T16:31:33.050Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:53.395Z",
+        "numero": 129,
+        "objectId": "0nMPIuFy4j",
+        "titulo": "Diagnóstico y tratamiento de transtornos de ansiedad (ansiedad generalizada, transtornos de pánico, reacción a estres, trastornos de adaptación {trastorno de estrés postraumático y trastorno adaptativo})",
+        "updatedAt": "2014-09-11T16:33:12.929Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:26:57.714Z",
+        "numero": 128,
+        "objectId": "LcStFwyZic",
+        "titulo": "Diagnóstico y tratamiento de trastornos afectivos (depresión, trastorno afectivo de tipo bipolar, trastornos afectivos persistentes)",
+        "updatedAt": "2014-09-11T16:34:05.956Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:13.114Z",
+        "numero": 127,
+        "objectId": "oBxFvZoVsS",
+        "titulo": "Diagnóstico y tratamiento de artritis reumatoide",
+        "updatedAt": "2014-09-11T16:34:18.481Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:16.542Z",
+        "numero": 126,
+        "objectId": "MV0WaXdeyC",
+        "titulo": "Diagnóstico y tratamiento de  hiperuricemia y gota",
+        "updatedAt": "2014-09-11T16:35:17.790Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:19.274Z",
+        "numero": 125,
+        "objectId": "HRa0pIK5Bu",
+        "titulo": "Diagnóstico y tratamiento de osteoporosis",
+        "updatedAt": "2014-09-11T16:35:51.767Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:22.361Z",
+        "numero": 124,
+        "objectId": "xb3Hs2nuxF",
+        "titulo": "Diagnóstico y tratamiento de insuficiencia cardiaca",
+        "updatedAt": "2014-09-11T16:35:59.438Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:45.815Z",
+        "numero": 123,
+        "objectId": "1IUpjo4yIU",
+        "titulo": "Diagnóstico y tratamiento de diabetes mellitus tipo 1",
+        "updatedAt": "2014-09-11T16:36:09.845Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:28:17.936Z",
+        "numero": 122,
+        "objectId": "e9HfXlvuey",
+        "titulo": "Diagnóstico y tratamiento de hipotirodismo",
+        "updatedAt": "2014-09-11T16:36:27.295Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:52.113Z",
+        "numero": 121,
+        "objectId": "NmyS7oX0nU",
+        "titulo": "Diagnóstico y tratamiento de crisis tirotóxica",
+        "updatedAt": "2014-09-11T16:36:58.184Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:55.237Z",
+        "numero": 120,
+        "objectId": "NPcH9lCLpm",
+        "titulo": "Diagnóstico y tratamiento de hipertiroidismo",
+        "updatedAt": "2014-09-11T16:37:12.971Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:27:58.363Z",
+        "numero": 119,
+        "objectId": "Yz2jv0TH6f",
+        "titulo": "Diagnóstico y tratamiento de dislipidemia",
+        "updatedAt": "2014-09-11T16:37:23.304Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:28:01.473Z",
+        "numero": 118,
+        "objectId": "hdh7T96GDc",
+        "titulo": "Diagnóstico y tratamiento de úlcera gástrica y péptica crónica no perforada",
+        "updatedAt": "2014-09-11T16:37:49.747Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:28:05.471Z",
+        "numero": 117,
+        "objectId": "C90xZ3RU4O",
+        "titulo": "Diagnóstico y tratamiento de esofagitis por reflujo",
+        "updatedAt": "2014-09-11T16:38:02.604Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:28:08.691Z",
+        "numero": 116,
+        "objectId": "diZ1uOLJME",
+        "titulo": "Diagnóstico y tratamiento de psoriasis",
+        "updatedAt": "2014-09-11T16:38:09.928Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:28:12.031Z",
+        "numero": 115,
+        "objectId": "QGp8j2CQyc",
+        "titulo": "Diagnóstico y tratamiento de tuberculosis farmacorresistente (TAES)",
+        "updatedAt": "2014-09-11T16:38:26.667Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:08.023Z",
+        "numero": 114,
+        "objectId": "ImwXTwJnie",
+        "titulo": "Diagnóstico y tratamiento de tuberculosis (TAES)",
+        "updatedAt": "2014-09-11T16:42:23.720Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:10.787Z",
+        "numero": 113,
+        "objectId": "0n1vGe29bV",
+        "titulo": "Diagnóstico y tratamiento del asma y sus exacerbaciones en menores de 18 años",
+        "updatedAt": "2014-09-11T16:42:39.296Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:14.159Z",
+        "numero": 112,
+        "objectId": "VlWipRGvDD",
+        "titulo": "Diagnóstico y tratamiento del asma y sus exacerbaciones en adultos",
+        "updatedAt": "2014-09-11T16:43:12.927Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:18.583Z",
+        "numero": 111,
+        "objectId": "RVTL68oAvi",
+        "titulo": "Diagnóstico y tratamiento de sinusistis aguda",
+        "updatedAt": "2014-09-11T16:43:29.368Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:22.432Z",
+        "numero": 110,
+        "objectId": "1lyAJZYhug",
+        "titulo": "Diagnóstico y tratamiento de otitis media supurativa",
+        "updatedAt": "2014-09-11T16:43:39.636Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:25.564Z",
+        "numero": 109,
+        "objectId": "rbD654rWBB",
+        "titulo": "Diagnóstico y tratamiento de laringotraqueitis aguda",
+        "updatedAt": "2014-09-11T16:43:54.974Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:29.090Z",
+        "numero": 108,
+        "objectId": "j7LOE4TVE3",
+        "titulo": "Diagnóstico y tratamiento médico del sobrepeso y obesidad en niños y adolescentes",
+        "updatedAt": "2014-09-11T16:44:14.281Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:32.658Z",
+        "numero": 107,
+        "objectId": "pjarV7vMqj",
+        "titulo": "Diagnóstico y tratamiento de secuelas de desnutrición",
+        "updatedAt": "2014-09-11T16:44:41.804Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:36.181Z",
+        "numero": 106,
+        "objectId": "ZCk7HUpauy",
+        "titulo": "Diagnóstico y tratamiento de desnutrición severa tipo Marasmo",
+        "updatedAt": "2014-09-11T16:45:05.647Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:39.832Z",
+        "numero": 105,
+        "objectId": "PoSN2Jco88",
+        "titulo": "Diagnóstico y tratamiento de desnutrición severa tip Kwashiorkor",
+        "updatedAt": "2014-09-11T16:45:24.676Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:43.268Z",
+        "numero": 104,
+        "objectId": "UpIi0q4scm",
+        "titulo": "Diagnóstico y tratamiento de desnutrición leve, moderada y severa",
+        "updatedAt": "2014-09-11T16:45:41.447Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:47.099Z",
+        "numero": 103,
+        "objectId": "BPTMxlFTWS",
+        "titulo": "Diagnóstico y tratamiento de lesiones escamosas intraepiteliales de alto grado",
+        "updatedAt": "2014-09-11T16:46:14.519Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:50.319Z",
+        "numero": 102,
+        "objectId": "XNiDjM0wSZ",
+        "titulo": "Diagnóstico y tratamiento de lesiones escamosas intraepiteliales de bajo grado",
+        "updatedAt": "2014-09-11T16:46:27.054Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:53.785Z",
+        "numero": 101,
+        "objectId": "FRwNeAdwMd",
+        "titulo": "Diagnóstico y tratamiento de uretritis y síndrome uretral",
+        "updatedAt": "2014-09-11T16:46:46.807Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:40:56.592Z",
+        "numero": 100,
+        "objectId": "Qbn3RPQjHF",
+        "titulo": "Diagnóstico y tratamiento de endometriosis",
+        "updatedAt": "2014-09-11T16:47:09.580Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:41:10.087Z",
+        "numero": 99,
+        "objectId": "h83tm83SDc",
+        "titulo": "Diagnóstico y tratamiento de vaginitis subaguda y crónica",
+        "updatedAt": "2014-09-11T16:47:36.220Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:41:18.246Z",
+        "numero": 98,
+        "objectId": "SDhhkRwipU",
+        "titulo": "Diagnóstico y tratamiento de hiperplasia endometrial",
+        "updatedAt": "2014-09-11T16:47:53.484Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:41:26.381Z",
+        "numero": 97,
+        "objectId": "yH5k6Miybn",
+        "titulo": "Diagnóstico y tratamiento trastornos benignos de la mama",
+        "updatedAt": "2014-09-11T16:48:22.373Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:41:31.413Z",
+        "numero": 96,
+        "objectId": "g1P1AiqB2R",
+        "titulo": "Diagnóstico y tratamiento del climaterio y menopausia",
+        "updatedAt": "2014-09-11T16:48:34.567Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:41:35.253Z",
+        "numero": 95,
+        "objectId": "Eq7IzdPKJS",
+        "titulo": "Diagnóstico y tratamiento de dismenorrea primaria",
+        "updatedAt": "2014-09-11T16:48:46.843Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:41:38.585Z",
+        "numero": 94,
+        "objectId": "qeMSQ7QcRd",
+        "titulo": "Diagnóstico y tratamiento de autismo y síndrome de asperger",
+        "updatedAt": "2014-09-11T16:49:16.000Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:41:42.405Z",
+        "numero": 93,
+        "objectId": "DGY9ulsbIH",
+        "titulo": "Diagnóstico y tratamiento por déficit de atención con componente hiperactivo",
+        "updatedAt": "2014-09-11T16:49:38.384Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:42:06.616Z",
+        "numero": 92,
+        "objectId": "f9xbEQnRlr",
+        "titulo": "Atención prenatal en el embarazo",
+        "updatedAt": "2014-09-11T16:50:25.356Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:46.549Z",
+        "numero": 91,
+        "objectId": "1W4YZXGKIy",
+        "titulo": "Método de planificación familiar temporal con dispositivo intrauterino",
+        "updatedAt": "2014-09-11T16:56:00.270Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:51:46.338Z",
+        "numero": 90,
+        "objectId": "Lekl4iK0KA",
+        "titulo": "Consejo y asesoramiento general sobre anticoncepción mediante el uso del condón",
+        "updatedAt": "2014-09-11T16:56:22.627Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:51:49.713Z",
+        "numero": 89,
+        "objectId": "m79TqSwPCf",
+        "titulo": "Método de planificación familiar temporal con anticonceptivos hormonales",
+        "updatedAt": "2014-09-11T16:56:51.449Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:51:53.239Z",
+        "numero": 88,
+        "objectId": "7Z6uH0HzlO",
+        "titulo": "Atención por algunos signos, síntomas y otros factores que influyen en el estado de salud",
+        "updatedAt": "2014-09-11T16:57:18.735Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:51:57.063Z",
+        "numero": 87,
+        "objectId": "OvFdMkMuzm",
+        "titulo": "Diagnóstico y tratamiento de lumbalgia",
+        "updatedAt": "2014-09-11T16:57:36.199Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:00.927Z",
+        "numero": 86,
+        "objectId": "nJD1MyevD2",
+        "titulo": "Diagnóstico y tratamiento conservador de artrosis erosiva y poliartrosis no especificada",
+        "updatedAt": "2014-09-11T16:58:15.921Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:04.691Z",
+        "numero": 85,
+        "objectId": "ep1pwKROkU",
+        "titulo": "Diagnóstico y tratamiento de hipertensión arterial",
+        "updatedAt": "2014-09-11T16:58:29.135Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:08.587Z",
+        "numero": 84,
+        "objectId": "zpT8FUzEOG",
+        "titulo": "Diagnóstico y tratamiento de prediabetes y diabetes mellitus tipo 2",
+        "updatedAt": "2014-09-11T16:58:47.200Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:12.539Z",
+        "numero": 83,
+        "objectId": "Mds69SGmlk",
+        "titulo": "Diagnóstico y tratamiento del síndrome de intestino irritable",
+        "updatedAt": "2014-09-11T16:59:04.913Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:16.343Z",
+        "numero": 82,
+        "objectId": "IPMrjCDGNl",
+        "titulo": "Diagnóstico y tratamiento de gastritis aguda, duodenitis y dispepsia",
+        "updatedAt": "2014-09-11T16:59:28.486Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:20.323Z",
+        "numero": 81,
+        "objectId": "AqG3YOfZPc",
+        "titulo": "Diagnóstico y tratamiento de infección aguda por virus de la hepatitis A y B",
+        "updatedAt": "2014-09-11T16:59:48.655Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:24.115Z",
+        "numero": 80,
+        "objectId": "4iI2dK5P1v",
+        "titulo": "Diagnóstico y tratamiento del acné",
+        "updatedAt": "2014-09-11T16:59:58.523Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:52:27.305Z",
+        "numero": 79,
+        "objectId": "rz1LzcwieH",
+        "titulo": "Diagnóstico y tratamiento de verrugas vulgares",
+        "updatedAt": "2014-09-11T17:00:09.451Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:30.089Z",
+        "numero": 78,
+        "objectId": "0ihjJo4JjA",
+        "titulo": "Diagnóstico y tratamiento de dermatitis seborreica",
+        "updatedAt": "2014-09-11T17:00:34.246Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:33.703Z",
+        "numero": 77,
+        "objectId": "ianfF2GQjD",
+        "titulo": "Diagnóstico y tratamiento de dermatitis exfoliativa",
+        "updatedAt": "2014-09-11T17:00:47.866Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:37.587Z",
+        "numero": 76,
+        "objectId": "SSOiqH9k7c",
+        "titulo": "Diagnóstico y tratamiento de dermatitis del pañal",
+        "updatedAt": "2014-09-11T17:01:04.808Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:41.407Z",
+        "numero": 75,
+        "objectId": "qm6kRUcsQ6",
+        "titulo": "Diagnóstico y tratamiento de dermatitis de contacto por irritantes",
+        "updatedAt": "2014-09-11T17:01:37.149Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:45.351Z",
+        "numero": 74,
+        "objectId": "BK3bx4VuYm",
+        "titulo": "Diagnóstico y tratamiento de dermatitis atópica",
+        "updatedAt": "2014-09-11T17:01:48.683Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:49.150Z",
+        "numero": 73,
+        "objectId": "rSz3U3FzKB",
+        "titulo": "Diagnóstico y tratamiento de dermatitis alérgica y de contacto",
+        "updatedAt": "2014-09-11T17:02:06.048Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:53.060Z",
+        "numero": 72,
+        "objectId": "dZFlCFFoDG",
+        "titulo": "Diagnóstico y tratamiento de procesos infecciosos de rezago (paludismo, ricketsiosis, lepra, enfermedad de chagas, leishmaniasis, oncocercosis)",
+        "updatedAt": "2014-09-11T17:03:13.823Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:54:56.951Z",
+        "numero": 71,
+        "objectId": "etiClCzJUu",
+        "titulo": "Diagnóstico y tratamiento de erisipela y celulitis",
+        "updatedAt": "2014-09-11T17:03:40.126Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:55:00.798Z",
+        "numero": 70,
+        "objectId": "aTx09mvJQF",
+        "titulo": "Diagnóstico y tratamiento de onicomicosis",
+        "updatedAt": "2014-09-11T17:03:51.422Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:55:04.131Z",
+        "numero": 69,
+        "objectId": "VRKGklAqBh",
+        "titulo": "Diagnóstico y tratamiento de micosis superficiales",
+        "updatedAt": "2014-09-11T17:04:21.098Z"
+    },
+	{
+        "createdAt": "2014-09-11T16:55:18.969Z",
+        "numero": 68,
+        "objectId": "7h4yVJkRnU",
+        "titulo": "Diagnóstico y tratamiento de pediculosis y phtiriasis",
+        "updatedAt": "2014-09-11T17:04:43.516Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:06:56.626Z",
+        "numero": 67,
+        "objectId": "grUmeWfILz",
+        "titulo": "Diagnóstico y tratamiento de escabiosis",
+        "updatedAt": "2014-09-11T17:11:54.301Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:00.689Z",
+        "numero": 66,
+        "objectId": "QWo5O7NrPH",
+        "titulo": "Diagnóstico y tratamiento farmacológico de brucelosis",
+        "updatedAt": "2014-09-11T17:12:09.552Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:04.540Z",
+        "numero": 65,
+        "objectId": "DtDQ81uCuW",
+        "titulo": "Diagnóstico y tratamiento farmacológico de triquinosis",
+        "updatedAt": "2014-09-11T17:12:53.555Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:08.886Z",
+        "numero": 64,
+        "objectId": "AAhh0ObCXJ",
+        "titulo": "Diagnóstico y tratamiento farmacológico de tricuriasis",
+        "updatedAt": "2014-09-11T17:13:01.445Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:13.121Z",
+        "numero": 63,
+        "objectId": "hpgynDbmZP",
+        "titulo": "Diagnóstico y tratamiento farmacológico de teniasis",
+        "updatedAt": "2014-09-11T17:13:17.218Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:17.371Z",
+        "numero": 62,
+        "objectId": "1yWuCPfv1h",
+        "titulo": "Diagnóstico y tratamiento farmacológico de giardasis",
+        "updatedAt": "2014-09-11T17:13:22.993Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:35.247Z",
+        "numero": 61,
+        "objectId": "ag9HQz3VNR",
+        "titulo": "Diagnóstico y tratamiento farmacológico de filariasis",
+        "updatedAt": "2014-09-11T17:13:58.835Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:39.716Z",
+        "numero": 60,
+        "objectId": "1wX32d3awa",
+        "titulo": "Diagnóstico y tratamiento farmacológico de estrongiloidiasis",
+        "updatedAt": "2014-09-11T17:14:12.441Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:43.995Z",
+        "numero": 59,
+        "objectId": "JN3v0Au2xw",
+        "titulo": "Diagnóstico y tratamiento farmacológico de esquistosomiasis",
+        "updatedAt": "2014-09-11T17:14:27.623Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:48.284Z",
+        "numero": 58,
+        "objectId": "HdrQyTKZSm",
+        "titulo": "Diagnóstico y tratamiento farmacológico de equinococosis",
+        "updatedAt": "2014-09-11T17:14:44.349Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:52.591Z",
+        "numero": 57,
+        "objectId": "EuNYA93ea5",
+        "titulo": "Diagnóstico y tratamiento de enterobiasis",
+        "updatedAt": "2014-09-11T17:15:24.586Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:07:56.820Z",
+        "numero": 56,
+        "objectId": "8RQBP5LCxc",
+        "titulo": "Diagnóstico y tratamiento de ascariasis",
+        "updatedAt": "2014-09-11T17:15:15.584Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:08:01.055Z",
+        "numero": 55,
+        "objectId": "MQXXWkbkQV",
+        "titulo": "Diagnóstico y tratamiento de anquilostomiasis y necatoriasis",
+        "updatedAt": "2014-09-11T17:18:17.039Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:08:05.464Z",
+        "numero": 54,
+        "objectId": "HsIWQ4Js6e",
+        "titulo": "Diagnóstico y tratamiento de herpes amebiasis",
+        "updatedAt": "2014-09-11T17:18:29.323Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:08:09.891Z",
+        "numero": 53,
+        "objectId": "qj15Kg6Ksw",
+        "titulo": "Diagnóstico y tratamiento de herpes genital",
+        "updatedAt": "2014-09-11T17:18:41.545Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:08:14.211Z",
+        "numero": 52,
+        "objectId": "SnxjekWpUJ",
+        "titulo": "Diagnóstico y tratamiento de chancro blando",
+        "updatedAt": "2014-09-11T17:18:51.494Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:08:17.908Z",
+        "numero": 51,
+        "objectId": "WEvNrLKRAQ",
+        "titulo": "Diagnóstico y tratamiento de vulvitis aguda",
+        "updatedAt": "2014-09-11T17:18:58.259Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:09:53.171Z",
+        "numero": 50,
+        "objectId": "KBq8pF5wSm",
+        "titulo": "Diagnóstico y tratamiento de vaginitis aguda",
+        "updatedAt": "2014-09-11T17:19:09.018Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:10:00.547Z",
+        "numero": 49,
+        "objectId": "ACvu7m65mj",
+        "titulo": "Diagnóstico y tratamiento de cistitis",
+        "updatedAt": "2014-09-11T17:19:17.749Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:10:04.856Z",
+        "numero": 48,
+        "objectId": "mIG0lqyZuu",
+        "titulo": "Diagnóstico y tratamiento de sífilis precoz y tardía",
+        "updatedAt": "2014-09-11T17:19:37.410Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:10:09.076Z",
+        "numero": 47,
+        "objectId": "JGmpEx2rV2",
+        "titulo": "Diagnóstico y tratamiento de trichomoniasis",
+        "updatedAt": "2014-09-11T17:19:54.242Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:10:13.766Z",
+        "numero": 46,
+        "objectId": "UFuUyGt2LQ",
+        "titulo": "Diagnóstico y tratamiento de infecciones por chlamydia (incluye tracoma)",
+        "updatedAt": "2014-09-11T17:20:15.266Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:10:17.628Z",
+        "numero": 45,
+        "objectId": "YPF0DhEgE6",
+        "titulo": "Diagnóstico y tratamiento de gonorrea",
+        "updatedAt": "2014-09-11T17:20:23.032Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:10:21.940Z",
+        "numero": 44,
+        "objectId": "ptoNd0SXM5",
+        "titulo": "Diagnóstico y tratamiento de candiadiasis oral",
+        "updatedAt": "2014-09-11T17:20:50.355Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:10:25.545Z",
+        "numero": 43,
+        "objectId": "wWbX0HmHJu",
+        "titulo": "Diagnóstico y tratamiento de herpes Zóster",
+        "updatedAt": "2014-09-11T17:21:26.129Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:07.942Z",
+        "numero": 42,
+        "objectId": "vr21Hq5JDJ",
+        "titulo": "Diagnóstico y tratamiento de fiebre tifoidea",
+        "updatedAt": "2014-09-11T17:27:20.840Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:11.741Z",
+        "numero": 41,
+        "objectId": "yRUFePBEGr",
+        "titulo": "Diagnóstico y tratamiento de fiebre paratifoidea y otras salmonelosis",
+        "updatedAt": "2014-09-11T17:27:53.962Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:16.556Z",
+        "numero": 40,
+        "objectId": "1y0LnMAlDP",
+        "titulo": "Diagnóstico y tratamiento del síndrome diarreico agudo",
+        "updatedAt": "2014-09-11T17:28:10.616Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:24.846Z",
+        "numero": 39,
+        "objectId": "S78McsyIPz",
+        "titulo": "Diagnóstico y tratamiento de dengue clásico",
+        "updatedAt": "2014-09-11T17:28:52.851Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:30.006Z",
+        "numero": 38,
+        "objectId": "6u8zIHLQ1e",
+        "titulo": "Diagnóstico y tratamiento de rinitis alérgica y vasomotora",
+        "updatedAt": "2014-09-11T17:29:07.182Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:35.471Z",
+        "numero": 37,
+        "objectId": "SkwvJKqJ9d",
+        "titulo": "Diagnóstico y tratamiento de conjuntivitis",
+        "updatedAt": "2014-09-11T17:30:25.096Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:40.828Z",
+        "numero": 36,
+        "objectId": "Y6nNQegUID",
+        "titulo": "Diagnóstico y tratamiento de rinofaringitis aguda",
+        "updatedAt": "2014-09-11T17:30:34.924Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:45.789Z",
+        "numero": 35,
+        "objectId": "MxLYaHTbQ1",
+        "titulo": "Diagnóstico y tratamiento de otitis media no supurativa",
+        "updatedAt": "2014-09-11T17:30:59.170Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:51.835Z",
+        "numero": 34,
+        "objectId": "h0VvO2q8Fe",
+        "titulo": "Diagnóstico y tratamiento de tos ferina",
+        "updatedAt": "2014-09-11T17:31:05.498Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:23:58.324Z",
+        "numero": 33,
+        "objectId": "uHs7Nocllj",
+        "titulo": "Diagnóstico y tratamiento de faringoamigdalitis aguda",
+        "updatedAt": "2014-09-11T17:31:27.483Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:24:05.172Z",
+        "numero": 32,
+        "objectId": "6oYQG40KQF",
+        "titulo": "Diagnóstico y tratamiento de varicela",
+        "updatedAt": "2014-09-11T17:31:33.234Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:24:09.643Z",
+        "numero": 31,
+        "objectId": "4nBGFXBimj",
+        "titulo": "Diagnóstico y tratamiento de sarampión, rubéola y parotiditis",
+        "updatedAt": "2014-09-11T17:32:26.083Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:25:16.246Z",
+        "numero": 30,
+        "objectId": "tv4Ymyg6D7",
+        "titulo": "Diagnóstico y tratamiento de escarlatina",
+        "updatedAt": "2014-09-11T17:32:45.801Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:32:50.857Z",
+        "numero": 29,
+        "objectId": "HLzuUtpHdA",
+        "titulo": "Diagnóstico y tratamiento por deficiencia de vitamina A",
+        "updatedAt": "2014-09-11T17:34:00.872Z"
+    },
+	{
+        "createdAt": "2014-09-11T17:32:55.589Z",
+        "numero": 28,
+        "objectId": "fPwvcXf1lv",
+        "titulo": "Diagnóstico y tratamiento de anemia ferropriva y por deficiencia de vitamina B12",
+        "updatedAt": "2014-09-11T17:34:18.987Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:57.281Z",
+        "numero": 1,
+        "objectId": "T73Ergr7hw",
+        "titulo": "Vacunación contra tuberculosis (B.C.G.)",
+        "updatedAt": "2014-09-11T17:50:36.376Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:52.072Z",
+        "numero": 2,
+        "objectId": "3reHH3K1o0",
+        "titulo": "Vacunación contra hepatitis B (HB) menores de 14 años",
+        "updatedAt": "2014-09-11T17:50:39.586Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:50.592Z",
+        "numero": 3,
+        "objectId": "xb7PPUD7e8",
+        "titulo": "Administración de vacuna pentavalente (DPT, HB, HIB)",
+        "updatedAt": "2014-09-11T17:50:40.957Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:49.061Z",
+        "numero": 4,
+        "objectId": "sdvjK9eSLI",
+        "titulo": "Vacunación contra rotavirus",
+        "updatedAt": "2014-09-11T17:50:42.315Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:47.213Z",
+        "numero": 5,
+        "objectId": "d4g3YHKqSR",
+        "titulo": "Vacunación contra neumococo conjugado (Heptavalente)",
+        "updatedAt": "2014-09-11T17:50:43.807Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:45.345Z",
+        "numero": 6,
+        "objectId": "m48XXiJj56",
+        "titulo": "Vacunación profiláctica contra influenza (gripe estacional) menores de 14 años y grupos de riesgo",
+        "updatedAt": "2014-09-11T17:50:45.235Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:43.746Z",
+        "numero": 7,
+        "objectId": "f4wAJl7ICV",
+        "titulo": "Vacunación contra sarampión, parotiditis y rubéola (SRP)",
+        "updatedAt": "2014-09-11T17:50:46.448Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:42.357Z",
+        "numero": 8,
+        "objectId": "5MmcOgx8Om",
+        "titulo": "Vacunación contra difteria, tosferina y tétanos (DPT)",
+        "updatedAt": "2014-09-11T17:50:48.025Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:39.207Z",
+        "numero": 9,
+        "objectId": "dzvokucUSf",
+        "titulo": "Vacunación contra poliomielitis (SABIN)",
+        "updatedAt": "2014-09-11T17:50:48.979Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:36.790Z",
+        "numero": 10,
+        "objectId": "3n5a7zp2Wj",
+        "titulo": "Vacunación contra el virus del papiloma humano (VPH)",
+        "updatedAt": "2014-09-11T17:50:50.250Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:34.805Z",
+        "numero": 11,
+        "objectId": "RPu38UxdT0",
+        "titulo": "Vacunación contra hepatitis B (HB) mayores de 14 años",
+        "updatedAt": "2014-09-11T17:50:51.485Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:33.409Z",
+        "numero": 12,
+        "objectId": "eT4K6VcTX7",
+        "titulo": "Vacunación contra sarampión y rubéola (SR)",
+        "updatedAt": "2014-09-11T17:50:52.685Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:32.235Z",
+        "numero": 13,
+        "objectId": "dNN0HJa6fM",
+        "titulo": "Vacunación contra tétanos y difteria (TD)",
+        "updatedAt": "2014-09-11T17:50:54.370Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:42:25.923Z",
+        "numero": 14,
+        "objectId": "7BqsQFrU4t",
+        "titulo": "Vacunación contra el neumococo para el adulto mayor",
+        "updatedAt": "2014-09-11T17:50:55.766Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:38:15.557Z",
+        "numero": 15,
+        "objectId": "BfgFAJQoQX",
+        "titulo": "Vacunación profiláctica contra influenza (gripe estacional) para mayores de 60 años sin patologías asociadas",
+        "updatedAt": "2014-09-11T17:50:57.055Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:38:10.525Z",
+        "numero": 16,
+        "objectId": "kSr0VW5ik6",
+        "titulo": "Acciones preventivas para recién nacido",
+        "updatedAt": "2014-09-11T17:50:58.403Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:38:05.341Z",
+        "numero": 17,
+        "objectId": "BimJVQOk5H",
+        "titulo": "Acciones preventivas para menores de 5 años",
+        "updatedAt": "2014-09-11T17:50:59.889Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:38:00.422Z",
+        "numero": 18,
+        "objectId": "f1IoAEZ5qD",
+        "titulo": "Acciones preventivas para niñas y niños de 5 a 9 años",
+        "updatedAt": "2014-09-11T17:51:01.317Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:37:55.218Z",
+        "numero": 19,
+        "objectId": "4pAZa6AGq9",
+        "titulo": "Deteccion precoz de los trastornos de la conducta alimentaria",
+        "updatedAt": "2014-09-11T17:51:04.355Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:34.264Z",
+        "numero": 20,
+        "objectId": "OI9M0zqntF",
+        "titulo": "Acciones preventivas para adolescentes de 10 a 19 años",
+        "updatedAt": "2014-09-11T17:51:06.135Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:30.194Z",
+        "numero": 21,
+        "objectId": "L4FGwHqiJZ",
+        "titulo": "Acciones preventivas para mujeres de 20 a 59 años",
+        "updatedAt": "2014-09-11T17:51:07.664Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:25.003Z",
+        "numero": 22,
+        "objectId": "smWk41dGJO",
+        "titulo": "Acciones preventivas para hombres de 20 a 59 años",
+        "updatedAt": "2014-09-11T17:51:08.790Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:20.131Z",
+        "numero": 23,
+        "objectId": "KXYyaAOi44",
+        "titulo": "Examen médico completo para mujeres de 40 a 59 años",
+        "updatedAt": "2014-09-11T17:51:10.272Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:14.865Z",
+        "numero": 24,
+        "objectId": "OwTgxvpZtx",
+        "titulo": "Examen médico completo para hombres de 40 a 59 años",
+        "updatedAt": "2014-09-11T17:51:11.844Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:05.024Z",
+        "numero": 26,
+        "objectId": "UOzdL90cgt",
+        "titulo": "Acciones preventivas para adultos mayores de 60 años en adelante",
+        "updatedAt": "2014-09-11T17:51:14.941Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:09.689Z",
+        "numero": 25,
+        "objectId": "QbqvwiWHhm",
+        "titulo": "Prevención y atención a violencia familiar y de género",
+        "updatedAt": "2014-09-11T17:51:16.658Z"
+    },
+	{
+        "categoria": "Intervenciones de Salud Pública",
+        "createdAt": "2014-09-11T17:33:00.376Z",
+        "numero": 27,
+        "objectId": "J7GMKu9r0P",
+        "titulo": "Otras acciones de promoción a la salud y prevención de riesgos",
+        "updatedAt": "2014-09-11T17:51:23.549Z"
+    }
+] }

@@ -1,0 +1,33 @@
+<div style="position:relative">
+<section id="pacientesHeader" class="">
+	
+		<ul class="nav nav-tabs row" role="tablist">
+  			
+  			<li ng-show="paciente.nombre" ng-class="{active:activeCtrl=='paciente'}" ><a href="#/pacientes/paciente/{{paciente.id}}" class="bold"><i class="glyphicon glyphicon-user"></i>{{paciente.nombre}}</a></li>
+  			<li ng-class="{active:activeCtrl=='nota'}" ><a href="#/pacientes/nota/{{paciente.id}}"><i class="glyphicon glyphicon-file"></i> Nota de evolucion</a></li>
+  			<li ng-class="{active:activeCtrl=='nuevo'}"><a href="#/pacientes/nuevo"><i class="glyphicon glyphicon-plus"></i>Agregar Paciente</a></li>
+  			<li ng-class="{active:activeCtrl=='reportes'}"><a href="#/pacientes/reportes"><i class="glyphicon glyphicon-list-alt"></i> Reportes</a></li>
+
+  			<li ng-class="{active:activeCtrl=='lista'}"><a href="#/pacientes/lista"><i class="glyphicon glyphicon glyphicon-list"></i> Lista Pacientes</a></li>
+  			</ul>
+  			
+</section>
+<section id="pacientesContainer" ng-switch on="activeCtrl">
+	<div ng-switch-when="lista">
+		<div  ng-include="'templates/listaPacientes.html'"  ng-controller="listaPacientesCtrl"></div>
+	</div>
+	<div ng-switch-when="paciente" >
+		<div ng-include="'templates/pacienteInfo.html'" ></div>
+	</div>
+
+	<div  ng-switch-when="nota" >
+		<div ng-include="'templates/hoja.html'" ng-controller="hojaCtrl"></div>
+	</div>
+	<div ng-switch-when="nuevo" >
+		<div ng-include="'templates/pacienteInfo.html'" ></div>
+	</div>
+	<div ng-switch-when="reportes">
+		<div  ng-include="'templates/listaPacientes.html'"  ng-controller="listaPacientesCtrl"></div>
+	</div>
+</section>
+</div>

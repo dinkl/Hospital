@@ -1,0 +1,9 @@
+<h3>Lista de causes</h3>
+<table class="col-md-12 table">
+<thead>
+	<tr><th>#</th><th>Nombre</th></tr>
+</thead>
+<tbody >
+	<tr ng-repeat="c in causes"><td>{{c.NUMERO}}</td><td><a href="#/causes/{{c.NUMERO}}">{{c.NOMBRE}}</a></td></a></tr>
+</tbody>
+</table>

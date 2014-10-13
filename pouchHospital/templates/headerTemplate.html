@@ -1,0 +1,100 @@
+<nav class="navbar navbar-default row" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#miniDashboard">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#miniSearch"><i ng-show="quickSearchText==''" class="glyphicon glyphicon-search"></i></button>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="miniDashboard">
+      <ul class="list-dashboard nav row visible-xs-block" ng-show="user">      
+        <li ng-class="{active:activedash==''}"><a href="#/">Dashboard</a></li>
+        <li ng-class="{active:activedash=='pacientes'}"><a href="#/pacientes">Pacientes</a></li>
+        <li ng-class="{active:activedash=='reportes'}"><a href="#/causes">Reportes</a></li>
+        <li ng-class="{active:activedash=='causes'}"><a href="#/causes">Causes</a></li>     
+        <li ng-class="{active:activedash=='salir'}"><a href="" ng-click="logout()">Salir</a></li>
+        <span class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Sync</span>
+    </ul>
+    </div><!-- /.navbar-collapse -->
+    <div class="collapse navbar-collapse" id="miniSearch">
+
+             
+        <form class="pull-right col-md-3 " style="margin:0" role="search"> 
+<div class="input-group" id='quickSearchBox'>                     
+              <input type="search" ng-keydown="searchNav($event)"  class="form-control" ng-model='quickSearchText' placeholder="Buscar Paciente/CAUSE">
+              <span class="input-group-addon" ng-click="quickSearchText=''" ><i ng-show="quickSearchText==''" class="glyphicon glyphicon-search"></i>
+              <i ng-show="quickSearchText!=''" class="glyphicon glyphicon-remove"></i>
+              </span>
+            </div> 
+         
+          
+        </form>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
+<div id="quickSearch" ng-class="{active:quickSearchText!=''}" >   
+        <div id="relativeQuickSearch">    
+          <div ng-hide="quickSearchText.length<3">
+            <h4>Pacientes</h4>
+              <table class="table" id="quickSearchPacientes"><tbody>
+                <tr ng-repeat=" item in pacienteFiltered=(pacientesList| filter:quickSearchText | limitTo:20)" ng-click="closeSearch()" ng-class="{active:$index==selSearch}" >
+                <td><a href="#/pacientes/paciente/{{item.id}}" class="arrow-nav ">{{item.label}}</a></td>
+                <td><a href="#/pacientes/nota/{{item.id}}" ><i class="glyphicon glyphicon-file" title="Hoja de evolucion"></i></a>
+                </td><td><i class="glyphicon glyphicon-list-alt"  title="Reporte"></i></td></tr>
+              </tbody
+            ></table>
+          </div>
+          <div ng-hide="quickSearchText.length<1">
+            <h4>Causes (2014)</h4>
+            <table class="table" id="quickSearchCause"><tbody>
+              <tr ng-repeat=" item in causesFiltered=(searchList| filter:quickSearchText| limitTo:20)" ng-click="closeSearch()"  ng-class="{active:$index+pFiltered==selSearch}" ><td><a href="#/causes/{{item.NUMERO}}"><i class="glyphicon glyphicon-book"></i></a></td><td class="hover-underline arrow-nav"  ng-click="quickCause(item.NUMERO)" cause="{{item.NUMERO}}">{{item.label}}</td></tr>
+            </tbody></table>
+          </div>
+          </div>
+        </div>
+        <div id="quickCause" quick-cause cause="{{qCause}}" ng-class="{active:activeCause}">
+          
+        </div> 
+
+        <!--<div class="row top-header-nav">
+      <div id="quickSearch" ng-class="{active:quickSearchText!=''}" >   
+        <div id="relativeQuickSearch">    
+          <div ng-hide="quickSearchText.length<3">
+            <h4>Pacientes</h4>
+              <table class="table" id="quickSearchPacientes"><tbody>
+                <tr ng-repeat=" item in pacienteFiltered=(pacientesList| filter:quickSearchText | limitTo:20)" ng-click="closeSearch()" ng-class="{active:$index==selSearch}" >
+                <td><a href="#/pacientes/paciente/{{item.id}}" class="arrow-nav ">{{item.label}}</a></td>
+                <td><a href="#/pacientes/nota/{{item.id}}" ><i class="glyphicon glyphicon-file" title="Hoja de evolucion"></i></a>
+                </td><td><i class="glyphicon glyphicon-list-alt"  title="Reporte"></i></td></tr>
+              </tbody
+            ></table>
+          </div>
+          <div ng-hide="quickSearchText.length<1">
+            <h4>Causes (2014)</h4>
+            <table class="table" id="quickSearchCause"><tbody>
+              <tr ng-repeat=" item in causesFiltered=(searchList| filter:quickSearchText| limitTo:20)" ng-click="closeSearch()"  ng-class="{active:$index+pFiltered==selSearch}" ><td><a href="#/causes/{{item.NUMERO}}"><i class="glyphicon glyphicon-book"></i></a></td><td class="hover-underline arrow-nav"  ng-click="quickCause(item.NUMERO)" cause="{{item.NUMERO}}">{{item.label}}</td></tr>
+            </tbody></table>
+          </div>
+          </div>
+        </div>
+        <div id="quickCause" quick-cause cause="{{qCause}}" ng-class="{active:activeCause}">
+          
+        </div> 
+             
+        <form class="pull-right col-md-3 " style="margin:0" role="search"> 
+<div class="input-group" id='quickSearchBox'>                     
+              <input type="search" ng-keydown="searchNav($event)"  class="form-control" ng-model='quickSearchText' placeholder="Buscar Paciente/CAUSE">
+              <span class="input-group-addon" ng-click="quickSearchText=''" ><i ng-show="quickSearchText==''" class="glyphicon glyphicon-search"></i>
+              <i ng-show="quickSearchText!=''" class="glyphicon glyphicon-remove"></i>
+              </span>
+            </div> 
+         
+          
+        </form>
+        </div>-->

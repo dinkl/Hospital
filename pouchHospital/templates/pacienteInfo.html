@@ -1,0 +1,101 @@
+<div ng-controller="pacienteCtrl" >
+<section ng-show="edit" >
+	<div paciente pname="{{nombre}}"></div>
+	<hr>
+	<div class="row">	
+		<div class="col-md-7">
+			<table class="table table-bordered table-hover table-striped" id="tablePastNotes">
+				<thead>
+				<tr class="bg-primary">
+					<th>Fecha</th>
+					<th>Peso <br><i ng-click="toChart(1)" class="glyphicon glyphicon-stats"></i></th>
+					<th>Altura</th>
+					<th>F.C <br><i ng-click="toChart(2)"  class="glyphicon glyphicon-stats"></i></th>
+					<th>F.R. <br><i ng-click="toChart(3)" class="glyphicon glyphicon-stats"></i></th>
+					<th>T.C. <br><i ng-click="toChart(4)" class="glyphicon glyphicon-stats"></i></th>
+					<th>T.A. <br><i ng-click="toChart(5)" class="glyphicon glyphicon-stats"></i></th>
+					<th>IMC <br><i ng-click="toChart(0)" class="glyphicon glyphicon-stats"></i></th>
+					<th>Editar</th>
+					<th>PDF</th>
+					</tr>
+					</thead>
+				<tbody>
+					<tr ng-repeat="nota in notas"><td>{{nota.Fecha}}</td><td>{{nota.Peso}}</td><td>{{nota.Talla}}</td><td>{{nota.FC}}</td><td>{{nota.FR}}</td><td>{{nota.TC}}</td><td>{{nota.TA}}</td><td>{{floatFixed(nota.IMC)}}</td>
+						<td><a href="#/pacientes/nota/{{pacienteId}}/{{nota.nota_id}}"><i class="glyphicon glyphicon-pencil"></i></a></td>
+						<td><i class="glyphicon glyphicon-list-alt"></i></td></tr>
+					<tr ng-hide="notas.length>0"><td colspan="10">Este paciente no tiene consultas registradas</td></tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="col-md-5">
+			<div id="ccarousel_charts" class="carousel slide paciente-charts" data-interval="25000000" >
+	  <!-- Indicators -->
+			  <!-- Wrapper for slides -->
+			  	<div class="carousel-inner">
+			  	<div class="item active"><div id="IMCChart"></div></div>
+			    <div class="item"><div id="PesoChart"></div></div>
+			    <div class="item"><div id="FCChart"></div></div>
+			    <div class="item"><div id="FRChart"></div></div>
+			    <div class="item"><div id="TCChart"></div></div>
+			    <div class="item"><div id="TAChart"></div></div>
+			    
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#ccarousel_charts" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#ccarousel_charts" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<hr>
+<section id="userRealInfo">
+	<form name="userForm" novalidate ng-submit="savePacient(userForm.$invalid)">
+	<h1 ng-hide="edit" >Agregar Paciente</h1>
+	<div class="col-md-4">
+		<div class="row"><label class="col-md-4">Nombre:</label><span class="col-md-8"><input type="text" ng-model="paciente.NOMBRE" required class="form-control"></span></div>
+		<div class="row"><label class="col-md-4 config-label">Fecha de nacimiento:</label><span class="col-md-8"><input type="text" datepicker required ng-model="paciente.NACIMIENTO" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4">Nº Historial:</label><span class="col-md-8"><input type="text" ng-model="paciente.EXPEDIENTE" class="form-control"></span></div>
+		<div class="row">
+			<label class="col-xs-4 col-md-4">Sexo:</label><span class="col-xs-3"> H <input type="radio" ng-model="paciente.SEXO" name="sexo" required value="H"> M <input type="radio" ng-model="paciente.SEXO" name="sexo" value="M" required></span>
+			<label class="col-xs-3">Migrante:</label><span class="col-xs-2"><input type="checkbox" ng-true-value="1" ng-false-value="0" ng-model="paciente.MIGRANTE"></span>
+		</div>
+		<div class="row">
+			<label class="col-xs-4 col-md-4">Hipertension:</label><span class="col-xs-3"><input type="checkbox" ng-model="paciente.HIPERTENSION" ng-true-value="1" ng-false-value="0"></span>
+			<label class="col-xs-3">Indigena:</label><span class="col-xs-2"><input type="checkbox" ng-true-value="1" ng-false-value="0" ng-model="paciente.INDIGENA"></span>
+		</div>
+		<div class="row">
+			<label class="col-xs-4 col-xs-4">Diabetes:</label><span class="col-xs-3"><input type="checkbox" ng-model="paciente.DIABETES" ng-true-value="1" ng-false-value="0"></span>
+			<label class="col-xs-3">Discapacidad:</label><span class="col-xs-2"><input type="checkbox" ng-true-value="1" ng-false-value="0" ng-model="paciente.DISCAPACIDAD"></span>
+		</div>
+	</div>
+	<div class="col-md-4 text-right">
+		<div class="row"><label class="col-md-4">Huella:</label><span class="col-md-8"><input type="text" ng-model="paciente.empty" disabled class="form-control"></span></div>
+		<div class="row">
+			<label class="col-md-4">SPSS:</label><span class="col-md-1"><input ng-model="paciente.SPSS" type="checkbox" ng-true-value="1" ng-false-value="0"></span>
+				<span class="col-md-7"><input type="text" ng-model="paciente.Numero" class="form-control"></span></div>
+		<div class="row">
+			<label class="col-md-4">Oportunidades:</label><span class="col-md-1"><input type="checkbox" ng-true-value="1" ng-false-value="0" ng-model="paciente.OPORTUNIDADES"></span><span class="col-md-7"><input type="text" ng-model="paciente.N_OPORTUNIDADES" class="form-control"></span></div>
+		<div class="row"><label class="col-md-4">Otro:</label><span class="col-md-7 col-md-offset-1"><input type="text" ng-model="paciente.OTRO" class="form-control"></span></div>
+	</div>
+
+	<div class="col-md-4">
+		<div class="row">
+			<span class="col-md-5 userImg">
+				<i ng-hide="paciente.IMAGEN_PERFIL_64" class="glyphicon glyphicon-user fullSize"></i>
+				<img ng-src='{{paciente.IMAGEN_PERFIL_64}}' ng-model="paciente.IMAGEN_PERFIL_64" width="100" height="120" id="profilePreview" ng-show="paciente.IMAGEN_PERFIL_64" ng-change="imageChange()">
+				<canvas id="previewMin" class="hidden" ></canvas>
+			</span>
+			<!--<input type="file" class="btn btn-primary" value="camera" accept="image/*" capture="camera">--><input  type="file" file-directive  id="userImageUpload" class="btn col-md-12 btn-primary" >
+		</div>
+		<div class="row"><textarea class="col-md-12"></textarea></div>
+	</div>
+	<button type="submit" class="btn btn-success"><i class="glyphicon glyphicon-floppy-disk"></i> Guardar</button>
+	</form>
+</section>
+</div>

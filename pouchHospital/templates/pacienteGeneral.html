@@ -1,0 +1,73 @@
+<div class="row bg-info" id="pacienteMainInfo">
+		<h3 ng-hide="showName!=true">{{paciente.NOMBRE}}</h3>
+			<span class="col-xs-4 col-md-2 userImg" ng-hide="showFace!=true">
+				<i ng-hide="paciente.IMAGEN_PERFIL_64" class="glyphicon glyphicon-user fullSize"></i>
+				<img ng-src="{{paciente.IMAGEN_PERFIL_64}}" ng-model="paciente.IMAGEN_PERFIL_64" width="100" height="100"  ng-show="paciente.IMAGEN_PERFIL_64" ng-change="imageChange()">
+			</span>
+			<div ng-hide="showVitals!=true">
+			<span class="col-xs-3 col-md-3">
+				<div class="row">Expediente: {{expediente}}</div>
+				<div class="row">
+					<label ng-show="paciente.SEXO=='H'">Hombre</label>
+					<label ng-show="paciente.SEXO=='M'">Mujer</label>
+				</div>
+				<div class="row">{{edad}} años</div>
+				
+			</span>
+			<span class="col-xs-3 col-md-3">
+				
+				<div class="row">Peso:</div>
+				<div class="row">Altura:</div>
+				<div class="row">Sexo:</div>
+			</span>
+		</div>
+			<div class="col-md-3" ng-hide="showButtons!=true">
+				<a class="btn btn-success" href="#/pacientes/nota/{{pacienteId}}"><i class="glyphicon glyphicon-file"></i> Evolución</a> <span class="btn btn-primary"><i class="glyphicon glyphicon-pencil"></i> Editar</span>
+			</div>
+	<div ng-hide="showEditVitals!=true">
+		<span class="col-md-3">
+			<div class="row"><label class="col-md-5 text-right config-label">Peso:</label><span class="col-md-5"><input type="text" ng-change="getIMC()" required ng-model="evolucion.Peso" class=" form-control"></span><small> kg.</small></div>
+			<div class="row"><label class="col-md-5 text-right config-label">Altura:</label><span class="col-md-5"><input type="text" ng-change="getIMC()" required ng-model="evolucion.Talla" class="col-md-12 form-control"></span><small> m.</small></div>
+			<div class="row"><label class="col-md-5 text-right config-label"><small>Frecuencia Cardiaca:</small></label><span class="col-md-5"><input type="text" required ng-model="evolucion.FC" class="col-md-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-md-5 text-right config-label">IMC:</label><span class="col-md-5"><label type="text" ng-class="'imc'+imcText">{{evolucion.IMC}}</label><br><label>{{imcText}}</label></span></div>
+
+		</span>
+		<span class="col-md-3">
+			
+			<div class="row"><label class="col-md-5 text-right config-label">Frecuencia Respiratoria:</label><span class="col-md-5"><input type="text" required ng-model="evolucion.FR" class="col-md-12 form-control"></span><small> x'</small></div>
+			<div class="row"><label class="col-md-5 text-right config-label">Temperatura Corporal:</label><span class="col-md-5"><input type="text" required ng-model="evolucion.TC" class="col-md-12 form-control"></span><small> Cº</small></div>
+			<div class="row"><label class="col-md-5 text-right config-label">Tension Aarterial:</label><span class="col-md-5"><input type="text" required ng-model="evolucion.TA" class="col-md-12 form-control"></span><small> mmhg</small></div>
+			<div class="row"><label class="col-md-5 text-right config-label">Glucosa:</label><span class="col-md-5"><input type="text" required ng-model="evolucion.Glucosa" class="col-md-12 form-control"></span><small> mg/dl</small></div>
+		</span>
+	</div>
+	<div ng-hide="showChart!=true" class="col-md-4" id="">
+		<div id="carousel-example-generic" class="carousel slide paciente-charts" data-interval="25000000" >
+	  <!-- Indicators -->
+			  
+
+			  <!-- Wrapper for slides -->
+			  	<div class="carousel-inner">
+			  		<div class="item active"><div id="userVitalChart"></div></div>
+			    <div class="item">
+			    	<table class="table table-bordered table-striped" id="pastNotesGeneral">
+				    	<thead>
+				    		<tr><th>Fecha</th><th>Peso</th><th>Altura</th><th>F.C</th>
+				    		<th>F.R.</th><th>T.C.</th><th>T.A.</th><th>IMC</th></tr>
+				    		</thead>
+				    	<tbody>
+				    		<tr ng-repeat="nota in notas"><td>{{nota.Fecha}}</td><td>{{nota.Peso}}</td><td>{{nota.Talla}}</td><td>{{nota.FC}}</td><td>{{nota.FR}}</td><td>{{nota.TC}}</td><td>{{nota.TA}}</td><td>{{floatFixed(nota.IMC)}}</td><tr>
+				    	</tbody>
+			    	</table>
+			    </div>			    
+			  </div>
+
+			  <!-- Controls -->
+			  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+	</div>
+</div>

@@ -1,0 +1,31 @@
+
+<div class="alert alert-danger" role="alert" ng-show="error">
+  El usuario o contraseña es incorrecta
+</div>
+<section style="margin-top:8%">
+	<form id="userRegister" class="form-horizontal col-md-5" ng-submit="registerUser()">
+			<h1> !Registrate!</h1>
+		<div class="form-group"><label class="control-label col-md-3">Nombre</label>
+			<div class="col-md-9"><input type="text" class="form-control" placeholder="Nombre completo"></div>
+	    </div>
+	    <div class="form-group"><label class="control-label col-md-3">email</label>
+			<div class="col-md-9"><input type="email" class="form-control" placeholder="correo@mail.com"></div>
+	    </div>
+	    <div class="form-group"><label class="control-label col-md-3">Usuario</label>
+			<div class="col-md-9"><input type="text" class="form-control" placeholder="Nombre de usuario"></div>
+	    </div>
+	    <div class="form-group"><label class="control-label col-md-3">Contraseña</label>
+			<div class="col-md-9"><input type="password" class="form-control" placeholder="Contraseña"></div>
+	    </div>
+	    <input type="submit" value="Registrarse" class="btn btn-success pull-right">
+	    
+	</form>
+	<form id="userLoggin" class="container-fluid col-md-5 col-md-offset-2 control" ng-submit="checkUser()">
+	<h1> Iniciar sesión</h1>
+		<div class="col-md-10">
+			<div class="row"><label class="col-md-3 col control-label">Usuario</label><span class="col-md-9" ><input class="form-control" ng-model="user" placeholder="Nombre de usuario"></span></div>
+			<div class="row"><label class="col-md-3 control-label">Contraseña</label><span class="col-md-9"><input type="password"  ng-model="password" class="form-control" placeholder="Contraseña"></span></div>
+			<input type="submit" value="Iniciar Sesión" class="btn btn-primary pull-right">	
+		</div>
+	</form>
+</section>

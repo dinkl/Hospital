@@ -1,0 +1,30 @@
+<div class="row" id="quickCauseTitle" ng-show="quickCause">
+	<span class="col-md-1 cause-menu-icons"><i  class="glyphicon glyphicon-remove" ng-click="close()"></i> <i class="glyphicon glyphicon-minus" ng-hide="minimized" ng-click="minimized=true"></i></span>
+	<span class="col-md-10 cause-title" ng-hide="minimized">{{cause.NUMERO}}: {{cause.NOMBRE}} </span> </div>
+
+<div ng-show="minimized" class="" style="cursor:pointer" ng-click="minimized=false"><small>Cause<br><strong> {{cause.NUMERO}}</strong></small></div>
+<section class="" id="causeInner" ng-hide="minimized">
+
+<h2 ng-hide="quickCause">{{cause.NUMERO}}: {{cause.NOMBRE}}</h2>
+
+<table class="col-md-12 table table-bordered cause-detail-table">
+<thead>
+	<tr><th>CIE10</th><th>CIE9</th><th>Normatividad</th><th>Auxiliares</th></tr>
+</thead>
+<tbody >
+	<tr>
+		<td><p ng-repeat="s in splitCIE10">{{s}}</p></td>
+		<td><p ng-repeat="s in splitCIE9">{{s}}</p></td>
+		<td><p ng-repeat="s in splitNormatividad">{{s}}</p> </td>
+		<td><p ng-repeat="s in splitAuxiliares">{{s}}</p> </td>
+	</tr>
+</tbody>
+</table>
+<h3>Medicamentos</h3>
+<table class="table table-striped">
+				<thead><tr><th>Clave</th><th>Nombre Generico</th><th>Descripcion</th></tr></thead>
+					<tbody>
+						<tr ng-repeat="m in medicamentos"><td><strong>{{m.clave}}</strong></td><td class="medicamento-nombre">{{m.nombre}}</td><td>{{m.descripcion}}</td></tr>
+					</tbody>
+			</table>
+</section>

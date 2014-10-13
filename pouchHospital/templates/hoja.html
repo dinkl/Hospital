@@ -1,0 +1,76 @@
+<div class="row">
+	<div class="col-md-7 hoja-nombre" ng-show="nombre">{{nombre}}</div>
+	<div class="col-md-5">
+		<div class="col-md-10"><input type="text" pacientescomplete class="form-control" placeholder="Buscar paciente"></div>
+		
+		<a href="#/pacientes/paciente" class="btn btn-success col-md-2"><i class="glyphicon glyphicon-plus"></i></a>
+	</div>
+	
+</div>
+<form name="evolucionFirst" ng-submit="saveNote()" novalidate class="col-md-12" id="evolucionFirst">
+<div class="out-layer" ng-show="overlay"></div>
+<div paciente  show-buttons="false" show-name="false" show-chart="true" show-vitals="false" chart="{{chartJSON}}" show-editVitals="true"></div>
+
+<div class="row">
+	<div class="col-md-4 hoja-status-info">		
+	<div class=""><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.Parse_1a"> 1º Consulta</div>
+	<div class=""><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.PS"> Paciente Sano</div>
+	<div class=""><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.ALV"> Acciones de linea de vida</div>
+	<hr>
+
+	<div class=""><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.Embarazo"> Embarazada</div>
+			<div class="inner-diagnostico " ng-hide="evolucion.Embarazo!='Y'">
+			<div class="row"><label class="col-md-6 text-right"><small>1ª Vez</small></label><span class="col-md-5"><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.Parse_1embarazo"></span></div>
+			<div class="row"><label class="col-md-6 text-right" ><small>Analisis Clinicos</small></label><span class="col-md-5"><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.ACembarzo"></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Frec. Cardiaca feto</small></label><span class="col-md-5"><input type="text"  class="form-control"></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Fecha de ultima regla</small></label><span class="col-md-5"><input datepicker type="text" ng-model="evolucion.FUR" class="form-control"></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Liquido Amniotico</small></label><span class="col-md-5"><input type="text" ng-model="evolucion.LA" class="form-control"></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Actividad Uterina:</small></label><span class="col-md-5"><input type="text" ng-model="evolucion.AU" class="form-control"></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Presentacion</small></label><span class="col-md-5"><input type="text" ng-model="evolucion.Presentacion" class="form-control"></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Semanas de gestacion</small></label><span class="col-md-5"><input type="text" ng-model="evolucion.SG" class="form-control"></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>F. Probable de parto</small></label><span class="col-md-5"><input datepicker ng-model="evolucion.FPP" type="text" class="form-control"></span></div>
+		</div>
+	<div class=""><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.Puerpera">Puerpera</div>
+		<div class="inner-diagnostico " ng-hide="evolucion.Puerpera!='Y'">
+		<div class="row"><label class="col-md-6 text-right"><small>1ª Vez</small></label><span class="col-md-5"><input type="checkbox" ng-model="evolucion.Parse_1puerpera" ng-true-value="Y" ng-false-value="N"></span></div>
+		<div class="row"><label class="col-md-6 text-right"><small>Aceptante PF hormonal</small></label><span class="col-md-5"><input type="checkbox" ng-model="evolucion.AceptantePFH" ng-true-value="Y" ng-false-value="N"></span></div>
+		<div class="row"><label class="col-md-6 text-right"><small>Aceptante PF DIU</small></label><span class="col-md-5"><input type="checkbox" ng-model="evolucion.AceptantePFDIU" ng-true-value="Y" ng-false-value="N"></span></div>
+		</div>
+	<div class=""><input type="checkbox" ng-true-value="Y" ng-false-value="N" ng-model="evolucion.Menopausia"> Menopausia</div>
+		<div class="inner-diagnostico " ng-hide="evolucion.Menopausia!='Y'">
+		<div class="row"><label class="col-md-6 text-right"><small>1ª Vez</small></label><span class="col-md-5"><input type="checkbox" ng-model="evolucion.Parse_1menopausia" ng-model="evolucion." ng-true-value="Y" ng-false-value="N"></span></div>
+		<div class="row"><label class="col-md-6 text-right"><small>Terapia Hormonal</small></label><span class="col-md-5"><input type="checkbox" ng-model="evolucion.THmenopausia" ng-true-value="Y" ng-false-value="N"></span></div>
+		</div>
+	<div class=""><input type="checkbox" ng-model="evolucion.Cronico" ng-true-value="Y" ng-false-value="N"> Cronico</div>
+	<div class="inner-diagnostico" ng-hide="evolucion.Cronico!='Y'">
+			<div class="row"><label class="col-md-6 text-right"><small>Diabetes Mellitus</small></label><span class="col-md-5"><select ng-model="evolucion.DMcronico"    ng-options="i for i in cronicoOptions" class="form-control"></select></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Hipertension Arterial</small></label><span class="col-md-5"><select ng-model="evolucion.HAcronico"  ng-options="i for i in cronicoOptions"  class="form-control"></select></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Obesidad</small></label><span class="col-md-5"><select ng-model="evolucion.Obesidad" ng-options="i for i in cronicoOptions"  class="form-control"></select></span></div>			
+			<div class="row"><label class="col-md-6 text-right"><small>Sindrome Metabolico</small></label><span class="col-md-5"><select ng-model="evolucion.SMcronico"  ng-options="i for i in cronicoOptions" class="form-control"></select></span></div>
+			<div class="row"><label class="col-md-6 text-right"><small>Dislipidemias</small></label><span class="col-md-5"><select ng-model="evolucion.Dislipidemias" ng-options="i for i in cronicoOptions"  class="form-control"></select></span></div>
+				
+			
+		</div>
+		<hr>
+		<div class=""><label class="col-md-3">Cartilla</label><span class="col-md-7"><select ng-model="evolucion.Cartilla" ng-options="i for i in cartillaOptions" class="form-control"></select></span></div>
+	
+
+</div>
+	<div class="col-md-8 evolucion-right-col">
+		<div class="row"><label class="col-md-5">Padecimiento:</label><textarea ng-model="evolucion.Padecimiento" class="form-control"></textarea></div>
+		<div class="row"><label class="col-md-5">Exploracion Fisica:</label><textarea ng-model="evolucion.EF" class="form-control"></textarea></div>
+		<div class="row"><label class="col-md-12">Diagnosico:</label>
+			<span class="col-md-9"><textarea ng-model="evolucion.Diagonostico" class="form-control"></textarea></span>
+			<span class="col-md-3"><input type="text" class="form-control">
+				<div type="text" class="form-control"></div>
+			</span></div>
+		
+		<div class="row"><label class="col-md-5">Tratamiento:</label><textarea ng-model="evolucion.Tratamiento" class="form-control"></textarea></div>
+	</div>
+	<input type="submit" ng-class="{'btn-default':evolucionFirst.$invalid,'btn-primary':!evolucionFirst.$invalid}" class="btn  col-md-offset-7" value="Guardar">
+	</div>
+</form>
+
+<div class="col-md-6">
+			
+		</div>

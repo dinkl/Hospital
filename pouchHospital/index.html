@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<!--<html manifest="cache.manifest">-->
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Hospital</title>	
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/jquery-ui.structure.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link type="text/css" rel="stylesheet" href="css/pace.css"/>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+	<div class="col-xs-1 col-sm-2 col-md-2 hidden-xs" id="dashSpacer"></div>
+	<div id="dashboard" ng-class="{'dash-inactive':inactive} " ng-controller="dashboard" class="col-xs-1 col-sm-2 col-md-2 hidden-xs bg-primary">
+		<div id="toggleDashboard" ng-click="toggleDashboard()" class="row li-bordered"><i class="glyphicon glyphicon-th-list" ></i></div>
+		<div class="row li-bordered">
+			<img src="" width="35px" height="40px" ng-show="user">
+			<div style="display:inline-block">{{user.get("username")}}<br><small>{{user.get("email")}}</small>
+			<span ng-show="!user">Iniciar Sesión</span>
+			</div>
+
+		</div>
+		<ul class="list-dashboard nav row" ng-show="user">			
+			<li ng-class="{active:activedash==''}"><a href="#/">Dashboard</a></li>
+			<li ng-class="{active:activedash=='pacientes'}"><a href="#/pacientes">Pacientes</a></li>
+			<li ng-class="{active:activedash=='reportes'}"><a href="#/causes">Reportes</a></li>
+			<li ng-class="{active:activedash=='causes'}"><a href="#/causes">Causes</a></li>			
+			<li ng-class="{active:activedash=='salir'}"><a href="" ng-click="logout()">Salir</a></li>
+			<span class="btn btn-default"><i class="glyphicon glyphicon-refresh"></i> Sync</span>
+		</ul>
+
+		
+	</div>
+<section class="container-fluid col-xs-12 col-sm-10 col-md-10 mainSection">
+	
+	<header ng-controller="headerCtrl" id="header" ng-show="user">
+		<div ng-include="'templates/headerTemplate.html'"></div>
+			
+	</header>
+	<section class="mainView">
+	<div ng-view class="container-fluid">
+			
+	</div>
+	</section>
+</section>
+<script src="js/lib/pouchdb-3.0.6.min.js"></script>
+<script src="js/require.js" data-main="js/main"></script>
+</body>
+</html>
